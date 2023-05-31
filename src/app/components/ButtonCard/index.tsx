@@ -1,13 +1,13 @@
-export default function ButtonHero () {
+export default function ButtonCard () {
   return (
     <>
       <a
         href='https://api.whatsapp.com/send?phone=351933965256&text=Ol%C3%A1%2C%20Dra.%20Jamile!%20Vim%20pelo%20site%20e%20Preciso%20de%20Ajuda%20com%20a%20minha%20Cidania/Nacionalidade.%20Podemos%20conversar%3F%20'
-        className='flex drop-shadow-lg items-center justify-center gap-x-2 py-4 px-6 text-white font-medium bg-red-500 duration-150 hover:-translate-x-0 hover:duration-300 hover:scale-110 hover:transition-all hover:text-white hover:bg-red-600 rounded-full md:inline-flex'
+        className='px-3 py-1.5 drop-shadow-lg inline-flex items-center justify-center w-full tracking-wide gap-x-2 text-white font-medium bg-red-500 duration-150 hover:transition-all hover:text-white hover:bg-red-600 rounded-full md:inline-flex'
         target='_blank'
         id="click-buttonhero"
       >
-        Eu posso te ajudar
+        Saiba mais
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='24'

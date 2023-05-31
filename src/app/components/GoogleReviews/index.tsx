@@ -14,7 +14,7 @@ export default function GoogleReviews () {
       )
     },
     {
-      name: '+5 estrelas no Google Meu Negócio'
+      name: '5 de 5 estrelas no Google'
     }
   ]
 

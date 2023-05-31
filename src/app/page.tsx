@@ -1,9 +1,13 @@
-import Hero from "./components/Hero";
+import ButtonFloat from './components/ButtonFloat'
+import Cards from './components/Cards'
+import Hero from './components/Hero'
 
-export default function Home() {
+export default function Home () {
   return (
     <>
-        <Hero/>
+      <Hero />
+      <Cards />
+      <ButtonFloat />
     </>
   )
 }

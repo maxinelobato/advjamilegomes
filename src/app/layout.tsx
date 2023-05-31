@@ -8,7 +8,7 @@ const montserrat_alternates = Montserrat_Alternates({
 })
 
 export const metadata = {
-  title: 'Jamile Gomes - Advocacia e Consultoria Jurídica',
+  title: 'Jamile Gomes - Advocacia e Consultoria Jurídica em Cidania e Nacionalidade Portuguesa',
   description:
     'Advogada Especialista em Cidania e Nacionalidade para Brasileiros em Portugal'
 }

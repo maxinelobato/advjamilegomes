@@ -66,38 +66,38 @@ export default function HowWeHelp () {
 
   return (
     <>
-    <div className='bg-gradient-to-r from-white to-orange-100 to-90%'>
-      <div className='max-w-screen-xl mx-auto mb-6 px-4 py-8 md:px-8'>
-        <div className='mx-auto text-center'>
-          <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
-            <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
-              Saiba quais documentos são necessários para a sua <br />{' '}
-              <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-500'>
-                Nacionalidade ou Cidadania
-              </span>
-            </h1>
+      <div className='bg-gradient-to-r from-white to-orange-100 to-90%'>
+        <div className='max-w-screen-xl mx-auto mb-6 px-4 py-8 md:px-8'>
+          <div className='mx-auto text-center'>
+            <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
+              <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
+                Saiba quais documentos são necessários para a sua <br />{' '}
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-500'>
+                  Nacionalidade ou Cidadania
+                </span>
+              </h1>
+            </div>
+          </div>
+          <div className='relative mt-6'>
+            <ul className='grid gap-8 sm:grid-cols-1 lg:grid-cols-4'>
+              {features.map((item, idx) => (
+                <li
+                  key={idx}
+                  className='bg-red-950 backdrop-blur-lg space-y-3 p-4 border rounded-lg drop-shadow-lg hover:transition-all'
+                >
+                  <div className='flex items-center justify-center'>
+                    <div className='text-red-300 pb-3'>{item.icon}</div>
+                  </div>
+                  <h1 className='p-4 text-center text-lg text-gray-300 font-semibold'>
+                    {item.title}
+                  </h1>
+                  <p className='text-center text-gray-300'>{item.desc}</p>
+                  <ButtonCard />
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
-        <div className='relative mt-6'>
-          <ul className='grid gap-8 sm:grid-cols-1 lg:grid-cols-4'>
-            {features.map((item, idx) => (
-              <li
-                key={idx}
-                className='bg-red-950 backdrop-blur-lg space-y-3 p-4 border rounded-lg drop-shadow-lg hover:transition-all'
-              >
-                <div className='flex items-center justify-center'>
-                  <div className='text-red-300 pb-3'>{item.icon}</div>
-                </div>
-                <h1 className='p-4 text-center text-lg text-gray-300 font-semibold'>
-                  {item.title}
-                </h1>
-                <p className='text-center text-gray-300'>{item.desc}</p>
-                <ButtonCard />
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
       </div>
     </>
   )

@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import GoogleReviews from '../GoogleReviews'
-export default function AboutWork () {
+export default function SocialProve () {
   const testimonials = [
     {
       icon: (

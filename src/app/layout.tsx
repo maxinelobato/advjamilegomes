@@ -1,4 +1,4 @@
-import { Suspense } from 'react'
+// import { Suspense } from 'react'
 import './globals.css'
 import { Montserrat_Alternates } from 'next/font/google'
 
@@ -19,9 +19,9 @@ export default function RootLayout ({
   children: React.ReactNode
 }) {
   return (
-    <html lang='en'>
+    <html lang='pt-BR'>
       <body className={montserrat_alternates.className}>
-        <Suspense>{children}</Suspense>
+        {children}
       </body>
     </html>
   )

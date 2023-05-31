@@ -15,7 +15,7 @@ export default function HowItWorks () {
               </h1>
             </div>
             <div className='lg:w-1/2'>
-              <p className='mb-4 text-base text-gray-700'>
+              <p className='mb-8 text-base text-stone-950'>
                 Você receberá orientação quanto aos documentos necessários, após
                 o envio destes, nós analisaremos se estão de acordo com as
                 exigências da Conservatória, se estiverem de acordo,

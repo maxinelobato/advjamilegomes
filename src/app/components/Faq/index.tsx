@@ -13,7 +13,11 @@ export default function Faq () {
     title3:
       'Minha família não tem informações sobre o meu parente português, o que fazer?',
     subtitle3:
-      'O processo de nacionalidade é mais rápido quando temos todas as informações, mas a falta de informação não impede que você localize o seu parente português. Nós também prestamos serviços de buscas, desejando contratar, basta entrar em contato pelo WhatsApp.'
+      'O processo de nacionalidade é mais rápido quando temos todas as informações, mas a falta de informação não impede que você localize o seu parente português. Nós também prestamos serviços de buscas, desejando contratar, basta entrar em contato pelo WhatsApp.',
+    title4:
+      'Faltam alguns meses para completar os 5 anos de residência, já posso solicitar a nacionalidade?',
+    subtitle4:
+      'Não, a nacionalidade só deve ser solicitada após os 5 anos completos, pois este é o principal requisito para garantir a sua nacionalidade portuguesa. Caso protocole o pedido antes, esta poderá ser negada e você precisará iniciar todo o processo novamente, bem como pagar pela taxa do novo pedido. O processo até o momento do aceite ou recusa do pedido demora alguns meses, portanto recomendamos que aguarde o tempo ideal e não arrisque o seu tempo e dinheiro.'
   }
 
   return (
@@ -56,7 +60,7 @@ export default function Faq () {
                             } h-5 w-5 text-red-500`}
                           />
                         </Disclosure.Button>
-                        <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-gray-500'>
+                        <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>
                           {faq.subtitle2}
                         </Disclosure.Panel>
                       </>
@@ -73,8 +77,25 @@ export default function Faq () {
                             } h-5 w-5 text-red-500`}
                           />
                         </Disclosure.Button>
-                        <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-gray-500'>
+                        <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>
                           {faq.subtitle3}
+                        </Disclosure.Panel>
+                      </>
+                    )}
+                  </Disclosure>
+                  <Disclosure as='div' className='mt-2'>
+                    {({ open }) => (
+                      <>
+                        <Disclosure.Button className='flex w-full justify-between rounded-lg bg-red-100 px-4 py-4 text-left text-sm font-medium text-red-900 hover:bg-red-200 focus:outline-none focus-visible:ring focus-visible:ring-red-500 focus-visible:ring-opacity-75'>
+                          <span className='font-semibold'>{faq.title4}</span>
+                          <ChevronUpIcon
+                            className={`${
+                              open ? 'rotate-180 transform' : ''
+                            } h-5 w-5 text-red-500`}
+                          />
+                        </Disclosure.Button>
+                        <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>
+                          {faq.subtitle4}
                         </Disclosure.Panel>
                       </>
                     )}

@@ -1,12 +1,12 @@
 import ButtonFloat from './components/ButtonFloat'
-import Cards from './components/Cards'
+import HowWeHelp from './components/HowWeHelp'
 import Hero from './components/Hero'
 
 export default function Home () {
   return (
     <>
       <Hero />
-      <Cards />
+      <HowWeHelp />
       <ButtonFloat />
     </>
   )

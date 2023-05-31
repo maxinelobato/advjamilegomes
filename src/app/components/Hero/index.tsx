@@ -19,7 +19,7 @@ export default function Hero () {
           </svg>
           <div className=''></div>
           <Image
-            className='object-cover w-full h-56 md:object-[center_top] md:rounded-lg md:h-full lg:h-full'
+            className='object-contain rounded-lg w-full h-full md:object-cover md:object-[center_top] md:rounded-none md:h-full lg:h-full'
             src='/bgjamile1.jpg'
             width={600}
             height={600}

@@ -1,5 +1,3 @@
-import ButtonCard from '../ButtonCard'
-
 export default function HowWeHelp () {
   const features = [
     {

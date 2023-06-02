@@ -78,59 +78,61 @@ export default function Advantages () {
 
   return (
     <>
-      <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
-        <div className='grid gap-10 lg:grid-cols-2'>
-          <div className='flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg'>
-            <div className='max-w-xl mb-6'>
-              <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
-                Você sabe as Vantagens de ser um{' '}
-                <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-500'>
-                  Cidadão Português?
-                </span>
-              </h1>
+      <div className='bg-brandRose-200'>
+        <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
+          <div className='grid gap-10 lg:grid-cols-2'>
+            <div className='flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg'>
+              <div className='max-w-xl mb-6'>
+                <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none'>
+                  Você sabe as Vantagens de ser um{' '}
+                  <span className='text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900'>
+                    Cidadão Português?
+                  </span>
+                </h1>
+              </div>
+              <div className='pt-2 max-w-lg lg:max-w-none'>
+                <ul className='space-y-4'>
+                  {features.map((item, idx) => (
+                    <li key={idx} className='flex gap-x-4'>
+                      <div className='flex-none w-8 h-8 text-red-700 rounded-lg flex justify-center items-center'>
+                        {item.icon}
+                      </div>
+                      <div>
+                        <h1 className='text-lg text-gray-800 font-semibold'>
+                          {item.title}
+                        </h1>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
-            <div className='pt-2 max-w-lg lg:max-w-none'>
-              <ul className='space-y-4'>
-                {features.map((item, idx) => (
-                  <li key={idx} className='flex gap-x-4'>
-                    <div className='flex-none w-8 h-8 text-red-700 rounded-lg flex justify-center items-center'>
-                      {item.icon}
-                    </div>
-                    <div>
-                      <h1 className='text-lg text-gray-800 font-semibold'>
-                        {item.title}
-                      </h1>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <div className='flex items-center justify-center -mx-4 lg:pl-8'>
-            <div className='flex flex-col items-end px-3'>
-              <Image
-                className='object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56'
-                width={600}
-                height={600}
-                src='/bandeiraportugal.jpg'
-                alt='Image 1'
-              />
-              <Image
-                className='object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40'
-                width={600}
-                height={600}
-                src='/bandeirabrasileira.jpeg'
-                alt='Image 2'
-              />
-            </div>
-            <div className='px-3'>
-              <Image
-                className='object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80'
-                width={600}
-                height={600}
-                src='/portugalmagick.webp'
-                alt='Image 3'
-              />
+            <div className='flex items-center justify-center -mx-4 lg:pl-8'>
+              <div className='flex flex-col items-end px-3'>
+                <Image
+                  className='object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56'
+                  width={600}
+                  height={600}
+                  src='/bandeiraportugal.jpg'
+                  alt='Image 1'
+                />
+                <Image
+                  className='object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40'
+                  width={600}
+                  height={600}
+                  src='/bandeirabrasileira.jpeg'
+                  alt='Image 2'
+                />
+              </div>
+              <div className='px-3'>
+                <Image
+                  className='object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80'
+                  width={600}
+                  height={600}
+                  src='/portugalmagick.webp'
+                  alt='Image 3'
+                />
+              </div>
             </div>
           </div>
         </div>

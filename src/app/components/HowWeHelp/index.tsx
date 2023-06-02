@@ -66,13 +66,13 @@ export default function HowWeHelp () {
 
   return (
     <>
-      <div className='bg-gradient-to-r from-white to-orange-100 to-90%'>
-        <div className='max-w-screen-xl mx-auto mb-6 px-4 py-8 md:px-8'>
+      <div className='bg-gradient-to-br from-brandRose-200 to-brandRose-700'>
+        <div className='max-w-screen-xl mx-auto px-4 py-8 md:px-8'>
           <div className='mx-auto text-center'>
             <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
-              <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
+              <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none'>
                 Saiba quais documentos são necessários para a sua <br />{' '}
-                <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-500'>
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900'>
                   Nacionalidade ou Cidadania
                 </span>
               </h1>
@@ -83,16 +83,16 @@ export default function HowWeHelp () {
               {features.map((item, idx) => (
                 <li
                   key={idx}
-                  className='bg-red-950 backdrop-blur-lg space-y-3 p-4 border rounded-lg drop-shadow-lg hover:transition-all'
+                  className='bg-brandRed-900 space-y-3 p-4 border rounded-lg drop-shadow-lg hover:transition-all'
                 >
                   <div className='flex items-center justify-center'>
-                    <div className='text-red-300 pb-3'>{item.icon}</div>
+                    <div className='text-brandOrange-900 pb-3'>{item.icon}</div>
                   </div>
-                  <h1 className='p-4 text-center text-lg text-gray-300 font-semibold'>
+                  <h1 className='p-4 text-center text-lg text-brandRose-200 font-semibold'>
                     {item.title}
                   </h1>
                   <p className='text-center text-gray-300'>{item.desc}</p>
-                  <ButtonCard />
+                  {/* <ButtonCard /> */}
                 </li>
               ))}
             </ul>

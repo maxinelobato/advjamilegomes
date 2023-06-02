@@ -1,8 +1,8 @@
 // import { Suspense } from 'react'
 import './globals.css'
-import { Montserrat_Alternates } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 
-const montserrat_alternates = Montserrat_Alternates({
+const montserrat = Montserrat({
   subsets: ['latin', 'cyrillic', 'cyrillic-ext', 'latin-ext', 'vietnamese'],
   weight: ['100', '200', '300', '400']
 })
@@ -20,7 +20,7 @@ export default function RootLayout ({
 }) {
   return (
     <html lang='pt-BR'>
-      <body className={montserrat_alternates.className}>
+      <body className={montserrat.className}>
         {children}
       </body>
     </html>

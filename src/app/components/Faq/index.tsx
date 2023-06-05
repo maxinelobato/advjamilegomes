@@ -1,8 +1,3 @@
-'use client'
-
-import { Disclosure } from '@headlessui/react'
-import ChevronUpIcon from '../icons/chevronupicon'
-
 export default function Faq () {
   const faq = {
     title1: 'Preciso ir pessoalmente para Portugal para pedir a nacionalidade?',
@@ -22,88 +17,53 @@ export default function Faq () {
 
   return (
     <>
-      <div className='max-w-screen-xl mx-auto mb-6 px-4 py-8 md:px-8'>
-        <div className='mx-auto text-center'>
-          <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
-            <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
-              FAQ -{' '}
-              <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-500'>
-                Dúvidas Frequentes
-              </span>
-            </h1>
+      <div className='bg-gradient-to-tr from-brandRose-200 to-brandRose-700'>
+        <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
+          <div className='max-w-xl sm:mx-auto lg:max-w-2xl'>
+            <div className='max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12'>
+              <div className='mx-auto text-center'>
+                <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-2'>
+                  <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none'>
+                    FAQ -{' '}
+                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900'>
+                      Dúvidas Frequentes
+                    </span>
+                  </h1>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className='w-full px-4'>
-          <div className='mx-auto w-full max-w-full rounded-2xl bg-white p-2'>
-            <Disclosure>
-              {({ open }) => (
-                <>
-                  <Disclosure.Button className='flex w-full justify-between rounded-lg bg-red-100 px-4 py-4 text-left text-sm font-medium text-red-900 hover:bg-red-200 focus:outline-none focus-visible:ring focus-visible:ring-red-500 focus-visible:ring-opacity-75'>
-                    <span className='font-semibold'>{faq.title1}</span>
-                    <ChevronUpIcon
-                      className={`${
-                        open ? 'rotate-180 transform' : ''
-                      } h-5 w-5 text-red-500`}
-                    />
-                  </Disclosure.Button>
-                  <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>
+          <div className='max-w-screen-xl sm:mx-auto'>
+            <div className='grid grid-cols-1 gap-16 row-gap-8 lg:grid-cols-2'>
+              <div className='space-y-8'>
+                <div>
+                  <p className='mb-4 font-bold text-brandRed-900'>{faq.title1}</p>
+                  <p className='px-4 pt-2 pb-2 text-sm text-brandRed-900'>
                     {faq.subtitle1}
-                  </Disclosure.Panel>
-                  <Disclosure as='div' className='mt-2'>
-                    {({ open }) => (
-                      <>
-                        <Disclosure.Button className='flex w-full justify-between rounded-lg bg-red-100 px-4 py-4 text-left text-sm font-medium text-red-900 hover:bg-red-200 focus:outline-none focus-visible:ring focus-visible:ring-red-500 focus-visible:ring-opacity-75'>
-                          <span className='font-semibold'>{faq.title2}</span>
-                          <ChevronUpIcon
-                            className={`${
-                              open ? 'rotate-180 transform' : ''
-                            } h-5 w-5 text-red-500`}
-                          />
-                        </Disclosure.Button>
-                        <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>
-                          {faq.subtitle2}
-                        </Disclosure.Panel>
-                      </>
-                    )}
-                  </Disclosure>
-                  <Disclosure as='div' className='mt-2'>
-                    {({ open }) => (
-                      <>
-                        <Disclosure.Button className='flex w-full justify-between rounded-lg bg-red-100 px-4 py-4 text-left text-sm font-medium text-red-900 hover:bg-red-200 focus:outline-none focus-visible:ring focus-visible:ring-red-500 focus-visible:ring-opacity-75'>
-                          <span className='font-semibold'>{faq.title3}</span>
-                          <ChevronUpIcon
-                            className={`${
-                              open ? 'rotate-180 transform' : ''
-                            } h-5 w-5 text-red-500`}
-                          />
-                        </Disclosure.Button>
-                        <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>
-                          {faq.subtitle3}
-                        </Disclosure.Panel>
-                      </>
-                    )}
-                  </Disclosure>
-
-                  <Disclosure as='div' className='mt-2'>
-                    {({ open }) => (
-                      <>
-                        <Disclosure.Button className='flex w-full justify-between rounded-lg bg-red-100 px-4 py-4 text-left text-sm font-medium text-red-900 hover:bg-red-200 focus:outline-none focus-visible:ring focus-visible:ring-red-500 focus-visible:ring-opacity-75'>
-                          <span className='font-semibold'>{faq.title4}</span>
-                          <ChevronUpIcon
-                            className={`${
-                              open ? 'rotate-180 transform' : ''
-                            } h-5 w-5 text-red-500`}
-                          />
-                        </Disclosure.Button>
-                        <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>
-                          {faq.subtitle4}
-                        </Disclosure.Panel>
-                      </>
-                    )}
-                  </Disclosure>
-                </>
-              )}
-            </Disclosure>
+                  </p>
+                </div>
+                <div>
+                  <p className='mb-4 font-bold text-brandRed-900'>{faq.title2}</p>
+                  <p className='px-4 pt-2 pb-2 text-sm text-brandRed-900'>
+                    {faq.subtitle2}
+                  </p>
+                </div>
+              </div>
+              <div className='space-y-8'>
+                <div>
+                  <p className='mb-4 font-bold text-brandRed-900'>{faq.title3}</p>
+                  <p className='px-4 pt-2 pb-2 text-sm text-brandRed-900'>
+                    {faq.subtitle3}
+                  </p>
+                </div>
+                <div>
+                  <p className='mb-4 font-bold text-brandRed-900'>{faq.title4}</p>
+                  <p className='px-4 pt-2 pb-2 text-sm text-brandRed-900'>
+                    {faq.subtitle4}
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

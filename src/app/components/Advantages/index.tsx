@@ -78,7 +78,7 @@ export default function Advantages () {
 
   return (
     <>
-      <div className='bg-brandRose-200'>
+     <div className='bg-gradient-to-tr from-brandRose-200 to-brandRose-700'>
         <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
           <div className='grid gap-10 lg:grid-cols-2'>
             <div className='flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg'>
@@ -94,11 +94,11 @@ export default function Advantages () {
                 <ul className='space-y-4'>
                   {features.map((item, idx) => (
                     <li key={idx} className='flex gap-x-4'>
-                      <div className='flex-none w-8 h-8 text-red-700 rounded-lg flex justify-center items-center'>
+                      <div className='flex-none w-8 h-8 text-brandRed-900 rounded-lg flex justify-center items-center'>
                         {item.icon}
                       </div>
                       <div>
-                        <h1 className='text-lg text-gray-800 font-semibold'>
+                        <h1 className='text-lg text-brandRed-900 font-semibold'>
                           {item.title}
                         </h1>
                       </div>

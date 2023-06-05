@@ -81,7 +81,7 @@ export default function HowWeHelp () {
               {features.map((item, idx) => (
                 <li
                   key={idx}
-                  className='bg-brandRed-900 space-y-3 p-4 border rounded-lg drop-shadow-lg hover:transition-all'
+                  className='bg-brandRed-900 space-y-3 p-4 rounded-lg drop-shadow-lg hover:transition-all'
                 >
                   <div className='flex items-center justify-center'>
                     <div className='text-brandOrange-900 pb-3'>{item.icon}</div>
@@ -89,8 +89,7 @@ export default function HowWeHelp () {
                   <h1 className='p-4 text-center text-lg text-brandRose-200 font-semibold'>
                     {item.title}
                   </h1>
-                  <p className='text-center text-gray-300'>{item.desc}</p>
-                  {/* <ButtonCard /> */}
+                  <p className='text-center text-brandRose-200'>{item.desc}</p>
                 </li>
               ))}
             </ul>

@@ -3,8 +3,8 @@ export default function ChevronUpIcon ({ className }: { className?: string }) {
     <>
       <svg
         xmlns='http://www.w3.org/2000/svg'
-        width='36'
-        height='36'
+        width='24'
+        height='24'
         fill='currentColor'
         className={className}
         viewBox='0 0 256 256'

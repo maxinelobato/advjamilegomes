@@ -34,7 +34,7 @@ export default function Faq () {
           </div>
         </div>
         <div className='w-full px-4'>
-          <div className='mx-auto w-full max-w-5xl rounded-2xl bg-white p-2'>
+          <div className='mx-auto w-full max-w-full rounded-2xl bg-white p-2'>
             <Disclosure>
               {({ open }) => (
                 <>
@@ -43,7 +43,7 @@ export default function Faq () {
                     <ChevronUpIcon
                       className={`${
                         open ? 'rotate-180 transform' : ''
-                      } h-8 w-8 text-red-500`}
+                      } h-5 w-5 text-red-500`}
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>
@@ -57,7 +57,7 @@ export default function Faq () {
                           <ChevronUpIcon
                             className={`${
                               open ? 'rotate-180 transform' : ''
-                            } h-8 w-8 text-red-500`}
+                            } h-5 w-5 text-red-500`}
                           />
                         </Disclosure.Button>
                         <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>
@@ -74,7 +74,7 @@ export default function Faq () {
                           <ChevronUpIcon
                             className={`${
                               open ? 'rotate-180 transform' : ''
-                            } h-8 w-8 text-red-500`}
+                            } h-5 w-5 text-red-500`}
                           />
                         </Disclosure.Button>
                         <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>
@@ -83,6 +83,7 @@ export default function Faq () {
                       </>
                     )}
                   </Disclosure>
+
                   <Disclosure as='div' className='mt-2'>
                     {({ open }) => (
                       <>
@@ -91,7 +92,7 @@ export default function Faq () {
                           <ChevronUpIcon
                             className={`${
                               open ? 'rotate-180 transform' : ''
-                            } h-8 w-8 text-red-500`}
+                            } h-5 w-5 text-red-500`}
                           />
                         </Disclosure.Button>
                         <Disclosure.Panel className='px-4 pt-4 pb-2 text-sm text-stone-950'>

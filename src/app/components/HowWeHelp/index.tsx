@@ -13,7 +13,7 @@ export default function HowWeHelp () {
         </svg>
       ),
       title: 'Descendente de Português',
-      desc: 'Se você sabe ou desconfia que é descendente de Português, nós podemos iremos te auxiliar a como solicitar a sua nacionalidade Portuguesa.'
+      desc: 'Se você sabe ou desconfia que é descendente de Português, nós podemos solicitar a sua nacionalidade Portuguesa'
     },
     {
       icon: (
@@ -28,7 +28,7 @@ export default function HowWeHelp () {
         </svg>
       ),
       title: 'Tempo de Residência em Portugal',
-      desc: 'Se está legal em Portugal há 5 anos ou mais, então você já tem direito a pedir a nacionalidade portuguesa.'
+      desc: 'Se está legal em Portugal há 5 anos ou mais, então você já tem direito a pedir a nacionalidade portuguesa'
     },
     {
       icon: (

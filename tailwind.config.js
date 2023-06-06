@@ -19,7 +19,7 @@ module.exports = {
         },
         brandRose: {
           700: '#B8979A',
-          200: '#FAF2F0',
+          200: '#FAF2F0', 
         },
         brandOrange: {
           900: '#D19343',
@@ -27,5 +27,5 @@ module.exports = {
       }
     }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }

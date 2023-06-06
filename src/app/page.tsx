@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Advantages from './components/Advantages'
 import HowItWorks from './components/HowItWorks'
 import Faq from './components/Faq'
+import Footer from './components/Footer'
 export default function Home () {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home () {
       <Advantages />
       <HowItWorks />
       <Faq />
+      <Footer/>
       <ButtonFloat />
     </>
   )

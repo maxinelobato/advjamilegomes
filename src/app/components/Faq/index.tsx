@@ -49,13 +49,13 @@ export default function Faq () {
                 <div
                   key={idx}
                   tabIndex={0}
-                  className='collapse collapse-arrow bg-brandRed-900'
+                  className='collapse rounded-lg collapse-arrow bg-brandOrange-900'
                 >
                   <input type='checkbox' className='peer' />
-                  <div className='collapse-title font-bold text-brandRose-200'>
+                  <div className='collapse-title font-bold text-brandRed-900'>
                     {item.title}
                   </div>
-                  <div className='collapse-content text-sm text-brandRose-700'>
+                  <div className='collapse-content text-sm text-brandRed-900'>
                     <p>{item.subtitle}</p>
                   </div>
                 </div>

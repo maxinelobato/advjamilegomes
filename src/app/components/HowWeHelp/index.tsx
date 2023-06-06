@@ -1,3 +1,5 @@
+import ServicesStats from "./servicestats"
+
 export default function HowWeHelp () {
   const features = [
     {
@@ -69,7 +71,7 @@ export default function HowWeHelp () {
           <div className='mx-auto text-center'>
             <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
               <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none'>
-                Saiba quais documentos são necessários para a sua <br />{' '}
+                Saiba quais documentos são necessários para a sua {' '}
                 <span className='text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900'>
                   Nacionalidade ou Cidadania
                 </span>
@@ -86,7 +88,7 @@ export default function HowWeHelp () {
                   <div className='flex items-center justify-center'>
                     <div className='text-brandOrange-900 pb-3'>{item.icon}</div>
                   </div>
-                  <h1 className='p-4 text-center text-lg text-brandRose-200 font-semibold'>
+                  <h1 className='p-4 text-center text-lg font-semibold text-brandRose-200 '>
                     {item.title}
                   </h1>
                   <p className='text-center text-brandRose-200'>{item.desc}</p>
@@ -94,6 +96,17 @@ export default function HowWeHelp () {
               ))}
             </ul>
           </div>
+          <div className='mx-auto text-center'>
+            <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
+              <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none'>
+                Veja todos os serviços que {' '}
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900'>
+                podemos lhe auxiliar
+                </span>
+              </h1>
+            </div>
+          </div>
+          <ServicesStats/>
         </div>
       </div>
     </>

@@ -28,7 +28,7 @@ export default function HowItWorks () {
                     target='_blank'
                     id='click-buttonhero'
                   >
-                    <button className='flex items-center gap-2 px-5 py-3 ring-1 ring-brandRose-700 text-brandRose-200 backdrop-blur-2xl bg-brandRose-700/30 font-bold duration-150 rounded-full hover:-translate-x-0 hover:duration-300 hover:scale-110 hover:transition-all'>
+                    <button className='flex items-center gap-2 px-5 py-3 text-brandRose-200 backdrop-blur-2xl bg-brandRose-700/30 font-bold duration-150 rounded-full hover:-translate-x-0 hover:duration-300 hover:scale-110 hover:transition-all'>
                       Eu posso ajudar
                       <svg
                         xmlns='http://www.w3.org/2000/svg'

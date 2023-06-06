@@ -19,7 +19,7 @@ export default function Footer () {
             Portuguesa
           </p>
           <div className='p-4'>
-            <div className='text-white text-sm'>OAB/SP - 371.054</div>
+            <div className='text-white text-sm'>OAB/SP - 000.000</div>
           </div>
           <div className='p-4 max-w-fit mx-auto'>
             <div className='text-white text-sm'>

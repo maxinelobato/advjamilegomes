@@ -10,10 +10,10 @@ export default function Navbar () {
               <li>
                 <a href='/'>
                   <Image
-                    src='/jamile-logopreta.png'
+                    src='/jamile-logovermelha.png'
                     width={220}
                     height={50}
-                    alt='Float UI logo'
+                    alt='Logo Jamile'
                     priority
                   />
                 </a>

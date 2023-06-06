@@ -48,7 +48,7 @@ export default function Footer () {
 
   return (
     <footer className='footer footer-center p-10 bg-brandRed-900 text-primary-content'>
-      <div className='max-w-fit p-4 mx-auto rounded-lg shadow-lg bg-brandRose-700/30 backdrop-blur-sm'>
+      {/* <div className='max-w-fit p-4 mx-auto rounded-lg shadow-lg bg-brandRose-700/30 backdrop-blur-sm'>
         <div>
           <Image
             alt='Logo'
@@ -90,7 +90,65 @@ export default function Footer () {
             className='w-14 sm:mx-auto'
           />
         </li>
-      </ul>
+      </ul> */}
+      <div>
+        <Image
+          alt='Logo'
+          width={200}
+          height={200}
+          loading='lazy'
+          src='/jamile-logobranca.png'
+          className='sm:mx-auto'
+        />
+        <p className='font-medium pt-2'>
+        Advocacia e Consultoria Jurídica em Cidadania e Nacionalidade
+            Portuguesa
+        </p>
+      </div>
+      <div>
+      <div className="footer px-10 py-4">
+  <div className="items-center grid-flow-col">
+  <svg
+          xmlns='http://www.w3.org/2000/svg'
+          width='24'
+          height='24'
+          fill='currentColor'
+          viewBox='0 0 256 256'
+        >
+          <path d='M232,128c0,.51,0,1,0,1.52-.34,14.26-5.63,30.48-28,30.48-23.14,0-28-17.4-28-32V88a8,8,0,0,0-8.53-8A8.17,8.17,0,0,0,160,88.27v4a48,48,0,1,0,6.73,64.05,40.19,40.19,0,0,0,3.38,5C175.48,168,185.71,176,204,176a54.81,54.81,0,0,0,9.22-.75,4,4,0,0,1,4.09,6A104.05,104.05,0,0,1,125.91,232C71.13,230.9,26.2,186.86,24.08,132.11A104,104,0,1,1,232,128ZM96,128a32,32,0,1,0,32-32A32,32,0,0,0,96,128Z'></path>
+        </svg>
+    <p>ACME Industries Ltd. <br/>Providing reliable tech since 1992</p>
+  </div> 
+</div>
+      {/* <ul className='mt-4 flex flex-col gap-x-2 gap-y-2 items-center'>
+            {contactFooter.map((item, idx) => (
+              <li key={idx} className='flex items-center gap-x-3'>
+                <div className='flex-none text-white'>{item.icon}</div>
+                <p className='flex sm:text'>{item.contact}</p>
+              </li>
+            ))}
+          </ul> */}
+      </div>
+      <div>
+        <p className='text-stone-400'>
+          Jamile Gomes Advocacia © 2023 - Todos os Direitos Reservados
+        </p>
+        <div className='grid grid-flow-col gap-4 pt-2'>
+          <ul className='flex flex-col sm:flex-row items-center gap-4 pt-2 sm:text-sm sm:mt-0'>
+            <li className='text-stone-400 text-xs'>Desenvolvido por</li>
+            <li className='text-stone-200'>
+              <Image
+                alt='Logo'
+                width={100}
+                height={100}
+                loading='lazy'
+                src='/signaturemidia-branca.png'
+                className='w-10 sm:mx-auto'
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   )
 }

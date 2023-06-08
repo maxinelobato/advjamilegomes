@@ -3,45 +3,54 @@ import Footer from '../Footer'
 export default function AboutJamile () {
   return (
     <>
-      <div className='bg-gradient-to-t from-stone-950 to-white to-70%'>
-        <section className='py-6'>
-          <div className='max-w-screen-xl mx-auto px-4 gap-x-12 items-center justify-between lg:flex md:px-4'>
-            <div className='mt-6 gap-12 sm:mt-0 md:flex lg:block'>
-              <div className='space-y-5 max-w-2xl mx-auto text-center px-4 py-4 sm:text-left'>
-                <h1 className='text-stone-950 font-semibold'>
-                  Sobre a Acorreialaw
-                </h1>
-                <h2 className='text-4xl text-stone-700 font-extrabold md:text-5xl'>
-                  Dr. Anderson Bispo Correia é especialista em{' '}
-                  <span className='text-stone-950 underline underline-offset-4 decoration-stone-700'>
-                    {' '}
-                    Direito Contratual
+      <div className='bg-gradient-to-tr from-brandRose-200 to-brandRose-700'>
+        <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
+          <div className='grid gap-5 row-gap-8 lg:grid-cols-2'>
+            <div className='flex flex-col justify-center'>
+              <div className='max-w-xl mb-6'>
+                <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none'>
+                  Sobre a Dra.{' '}
+                  <span className='text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900'>
+                    Jamile Gomes
                   </span>
-                </h2>
-                <p className='pb-8 drop-shadow-lg text-lg text-gray-800 font-semibold mx-auto mt-6 sm:break-after-all'>
-                  Adquirindo experiência ao longo dos mais de 10 anos seja em
-                  escritórios de advocacia seja em empresas de pequeno ou de
-                  grande porte com objetivo de atender seus clientes de forma
-                  puramente transparente, trazendo uma advocacia moderna e menos
-                  burocrática, utilizando não apenas palavras menos complexas
-                  nos instrumentos jurídicos mas um atendimento
-                  flexível e humanizado.
-                </p>
+                </h1>
+              </div>
+              <div className='grid gap-5 row-gap-8 sm:grid-cols-2'>
+                <div className='bg-brandRed-900 border-l-8 border-brandOrange-900 rounded-lg'>
+                  <div className='h-full p-5'>
+                    <h6 className='text-brandRose-200 mb-2 font-semibold leading-5'>
+                      Formada na Faculdade Pitágoras em 2020
+                    </h6>
+                    <p className='text-sm text-brandRose-700'>
+                      Inscrição na Ordem dos Advogados do Brasil e na Ordem dos
+                      Advogados de Portugal
+                    </p>
+                  </div>
+                </div>
+                <div className='bg-brandRed-900 border-l-8 border-brandOrange-900 rounded-lg'>
+                  <div className='h-full p-5'>
+                    <h6 className='text-brandRose-200 mb-2 font-semibold leading-5'>
+                      Especilidade
+                    </h6>
+                    <p className='text-sm text-brandRose-700'>
+                      Atuo no Direito Imigratório
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className='lg:block lg:max-w-lg'>
+            <div>
               <Image
-                src='/img/anderson2.jpg'
-                width={400}
-                height={300}
+                className='object-cover w-full h-56 rounded shadow-lg sm:h-96'
+                width={600}
+                height={600}
                 loading='lazy'
-                className='rounded-xl shadow-xl drop-shadow-xl'
-                alt='About Anderson'
+                src='/bgjamile2.jpg'
+                alt='About Jamile'
               />
             </div>
           </div>
-        </section>
-        <Footer />
+        </div>
       </div>
     </>
   )

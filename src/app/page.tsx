@@ -5,6 +5,7 @@ import Advantages from './components/Advantages'
 import HowItWorks from './components/HowItWorks'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
+import AboutJamile from './components/AboutJamile'
 export default function Home () {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home () {
       <HowWeHelp />
       <Advantages />
       <HowItWorks />
+      <AboutJamile/>
       <Faq />
       <Footer/>
       <ButtonFloat />

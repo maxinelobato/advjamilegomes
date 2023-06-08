@@ -14,26 +14,33 @@ export default function AboutJamile () {
                   </span>
                 </h1>
               </div>
-              <div className='grid gap-5 row-gap-8 sm:grid-cols-2'>
+              <div className='grid gap-5 row-gap-8 sm:grid-cols-1'>
                 <div className='bg-brandRed-900 border-l-8 border-brandOrange-900 rounded-lg'>
                   <div className='h-full p-5'>
-                    <h6 className='text-brandRose-200 mb-2 font-semibold leading-5'>
-                      Formada na Faculdade Pitágoras em 2020
-                    </h6>
-                    <p className='text-sm text-brandRose-700'>
-                      Inscrição na Ordem dos Advogados do Brasil e na Ordem dos
-                      Advogados de Portugal
-                    </p>
-                  </div>
-                </div>
-                <div className='bg-brandRed-900 border-l-8 border-brandOrange-900 rounded-lg'>
-                  <div className='h-full p-5'>
-                    <h6 className='text-brandRose-200 mb-2 font-semibold leading-5'>
-                      Especilidade
-                    </h6>
-                    <p className='text-sm text-brandRose-700'>
-                      Atuo no Direito Imigratório
-                    </p>
+                    <ul className='steps steps-vertical'>
+                      <li data-content='✓' className='step step-primary'>
+                        <h1 className='text-brandRose-200 font-semibold leading-5'>
+                          Formada na Faculdade Pitágoras em 2020
+                        </h1>
+                      </li>
+                      <li
+                        data-content='✓'
+                        className='step step-primary text-brandRose-700 break-all'
+                      >
+                        Inscrição na OAB do Brasil e na OA de Portugal
+                      </li>
+                      <li data-content='✓' className='step step-primary'>
+                        <h1 className='text-brandRose-200 font-semibold leading-5'>
+                          Especilidade
+                        </h1>
+                      </li>
+                      <li
+                        data-content='✓'
+                        className='step step-primary text-brandRose-700'
+                      >
+                        Direito Imigratório
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -41,8 +48,8 @@ export default function AboutJamile () {
             <div className='flex flex-1'>
               <Image
                 className='object-contain w-auto h-auto rounded-lg shadow-lg sm:h-auto'
-                width={600}
-                height={600}
+                width={400}
+                height={350}
                 loading='lazy'
                 src='/aboutjamile.jpg'
                 alt='About Jamile'

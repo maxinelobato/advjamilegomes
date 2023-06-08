@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Footer from '../Footer'
 export default function AboutJamile () {
   return (
     <>
@@ -39,13 +38,13 @@ export default function AboutJamile () {
                 </div>
               </div>
             </div>
-            <div>
+            <div className='flex flex-1'>
               <Image
-                className='object-cover w-full h-56 rounded shadow-lg sm:h-96'
+                className='object-contain w-auto h-auto rounded-lg shadow-lg sm:h-auto'
                 width={600}
                 height={600}
                 loading='lazy'
-                src='/bgjamile2.jpg'
+                src='/aboutjamile.jpg'
                 alt='About Jamile'
               />
             </div>

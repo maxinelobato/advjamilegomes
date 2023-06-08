@@ -1,4 +1,4 @@
-import ServicesStats from "./servicestats"
+import ServicesStats from './servicestats'
 
 export default function HowWeHelp () {
   const features = [
@@ -44,7 +44,7 @@ export default function HowWeHelp () {
           <path d='M134.16,24.1a4,4,0,0,0-3.56,1.81C120.3,41.48,120,55.79,120,56a8,8,0,0,0,9.68,7.79A8.24,8.24,0,0,0,136,55.68,8,8,0,0,1,144.8,48a8.14,8.14,0,0,1,7.2,8.23,24,24,0,0,1-48-.27c0-.63.09-10.78,5.44-24a4,4,0,0,0-4.59-5.39A104.16,104.16,0,0,0,24.07,131.66C26,186.72,71.23,231,126.32,231.9a104,104,0,0,0,7.84-207.8ZM80,127.91a12,12,0,1,1,12,12A12,12,0,0,1,80,127.91Zm80.27,54.77a61,61,0,0,1-64.54,0,8,8,0,0,1,8.54-13.54,45,45,0,0,0,47.46,0,8,8,0,0,1,8.54,13.54ZM164,139.91a12,12,0,1,1,12-12A12,12,0,0,1,164,139.91Z'></path>
         </svg>
       ),
-      title: 'Filhos com Nacionalidade por Tempo de Residência',
+      title: 'Transmitir a nacionalidade adquirida para o(a) filho(a)',
       desc: 'Será concedido a nacionalidade portuguesa ao filho menor de 18 anos de quem adquiriu a nacionalidade por tempo de residência em Portugal'
     },
     {
@@ -60,7 +60,37 @@ export default function HowWeHelp () {
         </svg>
       ),
       title: 'Casamento/União de Facto com Português(a)',
-      desc: 'Pode pedir a nacionalidade aquele que é casado ou vive em união de facto com um(a) português(a) há pelo menos 3 anos'
+      desc: 'Pode pedir a nacionalidade aquele que é casado ou vive em união de facto com um(a) português(a)'
+    },
+    {
+      icon: (
+        <svg
+          xmlns='http://www.w3.org/2000/svg'
+          width='40'
+          height='40'
+          fill='currentColor'
+          viewBox='0 0 256 256'
+        >
+          <path d='M248,160a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H56.45a73.54,73.54,0,0,1-.45-8,72,72,0,0,1,144,0,73.54,73.54,0,0,1-.45,8H240A8,8,0,0,1,248,160Zm-40,32H48a8,8,0,0,0,0,16H208a8,8,0,0,0,0-16ZM80.84,59.58a8,8,0,0,0,14.32-7.16l-8-16a8,8,0,0,0-14.32,7.16ZM20.42,103.16l16,8a8,8,0,1,0,7.16-14.31l-16-8a8,8,0,1,0-7.16,14.31ZM216,112a8,8,0,0,0,3.57-.84l16-8a8,8,0,1,0-7.16-14.31l-16,8A8,8,0,0,0,216,112ZM164.42,63.16a8,8,0,0,0,10.74-3.58l8-16a8,8,0,0,0-14.32-7.16l-8,16A8,8,0,0,0,164.42,63.16Z'></path>
+        </svg>
+      ),
+      title: 'Nascimento',
+      desc: 'Se você reside em Portugal e o seu filho nasceu em terras portuguesas, ele pode ter direito a nacionalidade portuguesa'
+    },
+    {
+      icon: (
+        <svg
+          xmlns='http://www.w3.org/2000/svg'
+          width='40'
+          height='40'
+          fill='currentColor'
+          viewBox='0 0 256 256'
+        >
+          <path d='M164.47,195.63a8,8,0,0,1-6.7,12.37H10.23a8,8,0,0,1-6.7-12.37,95.83,95.83,0,0,1,47.22-37.71,60,60,0,1,1,66.5,0A95.83,95.83,0,0,1,164.47,195.63Zm87.91-.15a95.87,95.87,0,0,0-47.13-37.56A60,60,0,0,0,144.7,54.59a4,4,0,0,0-1.33,6A75.83,75.83,0,0,1,147,150.53a4,4,0,0,0,1.07,5.53,112.32,112.32,0,0,1,29.85,30.83,23.92,23.92,0,0,1,3.65,16.47,4,4,0,0,0,3.95,4.64h60.3a8,8,0,0,0,7.73-5.93A8.22,8.22,0,0,0,252.38,195.48Z'></path>
+        </svg>
+      ),
+      title: 'Pai ou mãe de criança que nasceu em Portugal',
+      desc: 'Se o seu filho adquiriu nacionalidade portuguesa por nascimento, você pode ter direito à nacionalidade portuguesa'
     }
   ]
 
@@ -71,7 +101,7 @@ export default function HowWeHelp () {
           <div className='mx-auto text-center'>
             <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
               <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none'>
-                Saiba quais documentos são necessários para a sua {' '}
+                Saiba quais documentos são necessários para a sua{' '}
                 <span className='text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900'>
                   Nacionalidade ou Cidadania
                 </span>
@@ -79,7 +109,7 @@ export default function HowWeHelp () {
             </div>
           </div>
           <div className='relative mt-6'>
-            <ul className='grid gap-8 sm:grid-cols-1 lg:grid-cols-4'>
+            <ul className='grid gap-8 sm:grid-cols-1 lg:grid-cols-3'>
               {features.map((item, idx) => (
                 <li
                   key={idx}
@@ -99,14 +129,14 @@ export default function HowWeHelp () {
           <div className='mx-auto text-center'>
             <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
               <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none'>
-                Veja todos os serviços que {' '}
+                Veja todos os serviços que{' '}
                 <span className='text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900'>
-                podemos lhe auxiliar
+                  podemos lhe auxiliar
                 </span>
               </h1>
             </div>
           </div>
-          <ServicesStats/>
+          <ServicesStats />
         </div>
       </div>
     </>

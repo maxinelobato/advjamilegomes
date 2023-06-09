@@ -51,7 +51,7 @@ export default function Faq () {
                   tabIndex={0}
                   className='collapse rounded-lg collapse-arrow bg-brandOrange-900'
                 >
-                  <input type="checkbox" className="peer" id="text" />
+                  <input type='checkbox' className='peer' aria-label="checkbox" />
                   <div className='collapse-title font-bold text-brandRed-900'>
                     {item.title}
                   </div>

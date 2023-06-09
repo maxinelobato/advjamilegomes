@@ -8,7 +8,6 @@ export default function ButtonFloat () {
             style={{ textDecoration: 'none' }}
             target='_blank'
             aria-label="Clique no Botão"
-            id='click-buttonfloat'
           >
             <svg
               xmlns='http://www.w3.org/2000/svg'

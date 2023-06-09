@@ -21,9 +21,10 @@ export default function Hero () {
           <Image
             className='object-contain rounded-lg w-full h-full md:object-cover md:object-[center_top] md:rounded-none md:h-full lg:h-full'
             src='/bgjamile1.jpg'
-            width={600}
-            height={600}
+            width={300}
+            height={300}
             alt='Image'
+            loading='lazy'
           />
         </div>
         <div className='relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl'>

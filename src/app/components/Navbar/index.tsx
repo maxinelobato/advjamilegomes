@@ -11,10 +11,10 @@ export default function Navbar () {
                 <a href='/'>
                   <Image
                     src='/jamile-logovermelha.png'
-                    width={220}
+                    width={150}
                     height={50}
                     alt='Logo Jamile'
-                    priority
+                    loading='lazy'
                   />
                 </a>
               </li>

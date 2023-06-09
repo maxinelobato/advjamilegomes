@@ -24,7 +24,7 @@ export default function Hero () {
             width={300}
             height={300}
             alt='Image'
-            loading='lazy'
+            priority={true}
           />
         </div>
         <div className='relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl'>

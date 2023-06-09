@@ -24,7 +24,7 @@ export default function HowItWorks () {
                 </p>
                 <div className='pt-4 flex justify-end'>
                   <a
-                    href='https://api.whatsapp.com/send?phone=351933965256&text=Ol%C3%A1%2C%20Dra.%20Jamile!%20Vim%20pelo%20site%20e%20Preciso%20de%20Ajuda%20com%20a%20minha%20Cidania/Nacionalidade.%20Podemos%20conversar%3F%20'
+                    href='https://api.whatsapp.com/send?phone=351933965256&text=Ol%C3%A1%2C%20Dra.%20Jamile!%20Vim%20pelo%20site%20e%20Preciso%20de%20Ajuda%20com%20a%20minha%20Cidadania/Nacionalidade.%20Podemos%20conversar%3F%20'
                     target='_blank'
                   >
                     <button className='flex items-center gap-2 px-5 py-3 text-brandRose-200 backdrop-blur-2xl bg-brandRose-700/30 font-bold duration-150 rounded-full hover:-translate-x-0 hover:duration-300 hover:scale-110 hover:transition-all'>

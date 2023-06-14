@@ -31,7 +31,7 @@ export default function AboutJamile () {
                       </li>
                       <li data-content='✓' className='step step-primary'>
                         <h1 className='text-brandRose-200 font-semibold leading-5'>
-                          Especilidade
+                          Especialidade
                         </h1>
                       </li>
                       <li

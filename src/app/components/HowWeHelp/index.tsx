@@ -126,7 +126,7 @@ export default function HowWeHelp () {
               ))}
             </ul>
           </div>
-          <div className='mx-auto text-center'>
+          {/* <div className='mx-auto text-center'>
             <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
               <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none'>
                 Veja todos os serviços que{' '}
@@ -136,7 +136,7 @@ export default function HowWeHelp () {
               </h1>
             </div>
           </div>
-          <ServicesStats />
+          <ServicesStats /> */}
         </div>
       </div>
     </>

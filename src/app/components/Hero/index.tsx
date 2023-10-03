@@ -20,9 +20,9 @@ export default function Hero() {
           <Image
             className="object-contain rounded-lg w-full h-full md:object-cover md:object-[center_top] md:rounded-none md:h-full lg:h-full"
             src="/bgjamile1.jpg"
-            width={640}
-            height={800}
-            alt="Image"
+            width={600}
+            height={600}
+            alt="Image BG"
             quality={75}
             loading="eager"
           />

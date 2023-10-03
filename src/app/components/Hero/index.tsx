@@ -17,7 +17,6 @@ export default function Hero() {
           >
             <path d="M50 0H100L50 100H0L50 0Z" />
           </svg>
-          <div className=""></div>
           <Image
             className="object-contain rounded-lg w-full h-full md:object-cover md:object-[center_top] md:rounded-none md:h-full lg:h-full"
             src="/bgjamile1.jpg"
@@ -25,7 +24,7 @@ export default function Hero() {
             height={800}
             alt="Image"
             quality={75}
-            loading="lazy"
+            loading="eager"
           />
         </div>
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">

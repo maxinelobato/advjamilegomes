@@ -1,4 +1,6 @@
 import Image from "next/image";
+import jamile from "/public/bgjamile1.webp";
+
 export default function AboutJamile() {
   return (
     <>
@@ -48,11 +50,8 @@ export default function AboutJamile() {
             <div className="flex flex-1">
               <Image
                 className="object-contain w-auto h-auto rounded-lg shadow-lg sm:h-auto"
-                width={600}
-                height={600}
-                quality={75}
-                loading="lazy"
-                src="/aboutjamile.jpg"
+                src={jamile}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 alt="About Jamile"
               />
             </div>

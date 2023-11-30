@@ -4,6 +4,8 @@ import Image from "next/image";
 import ButtonHero from "../ButtonHero";
 import Navbar from "../Navbar";
 import GoogleReviews from "../GoogleReviews";
+import jamile from "/public/bgjamile1.webp";
+
 export default function Hero() {
   return (
     <>
@@ -19,11 +21,9 @@ export default function Hero() {
           </svg>
           <Image
             className="object-contain rounded-lg w-full h-full md:object-cover md:object-[center_top] md:rounded-none md:h-full lg:h-full"
-            src="/bgjamile1.jpg"
-            width={600}
-            height={600}
+            src={jamile}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             alt="Image BG"
-            quality={75}
             loading="eager"
           />
         </div>

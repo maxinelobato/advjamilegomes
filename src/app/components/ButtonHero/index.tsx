@@ -1,3 +1,5 @@
+import GoogleReviews from "../GoogleReviews";
+
 export default function ButtonHero() {
   return (
     <>

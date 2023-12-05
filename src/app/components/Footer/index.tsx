@@ -17,7 +17,7 @@ export default function Footer () {
                 width={100}
                 height={100}
                 loading='lazy'
-                src='/jamile-logobranca.png'
+                src='/assets/jamile-logobranca.png'
                 className='sm:mx-auto'
               />
             </a>
@@ -82,7 +82,7 @@ export default function Footer () {
                 width={100}
                 height={100}
                 loading='lazy'
-                src='/signaturemidia-branca.png'
+                src='/assets/signaturemidia-branca.png'
                 className='w-10 sm:mx-auto'
               />
             </li>

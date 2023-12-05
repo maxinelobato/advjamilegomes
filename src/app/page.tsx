@@ -6,14 +6,18 @@ import HowItWorks from './components/HowItWorks'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
 import AboutJamile from './components/AboutJamile'
+import HeroVideo from './components/HeroVideo'
+import GoogleBusiness from './components/GoogleBusiness'
 export default function Home () {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
+      <HeroVideo/>
       <HowWeHelp />
       <Advantages />
       <HowItWorks />
       <AboutJamile/>
+      <GoogleBusiness/>
       <Faq />
       <Footer/>
       <ButtonFloat />

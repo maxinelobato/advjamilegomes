@@ -4,7 +4,7 @@ import Image from "next/image";
 import ButtonHero from "../ButtonHero";
 import Navbar from "../Navbar";
 import GoogleReviews from "../GoogleReviews";
-import jamile from "/public/bgjamile1.webp";
+import jamile from "/public/assets/bgjamile1.webp";
 
 export default function Hero() {
   return (

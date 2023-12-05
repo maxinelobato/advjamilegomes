@@ -4,8 +4,8 @@ export default function GoogleReviews () {
       icon: (
         <svg
           xmlns='http://www.w3.org/2000/svg'
-          width='20'
-          height='20'
+          width='14'
+          height='14'
           fill='#5B0101'
           viewBox='0 0 256 256'
         >
@@ -20,11 +20,11 @@ export default function GoogleReviews () {
 
   return (
     <>
-      <div className='flex flex-wrap items-center justify-center gap-4 xl:justify-center'>
+      <div className='flex flex-wrap items-center justify-center gap-2 xl:justify-center'>
         {features.map((item, idx) => (
           <div
             key={idx}
-            className='flex text-brandRed-900 font-bold items-center gap-x-1 text-lg'
+            className='flex text-brandRed-900 font-bold items-center gap-x-1 text-xs sm:text-sm'
           >
             {item.icon}
             {item.icon}

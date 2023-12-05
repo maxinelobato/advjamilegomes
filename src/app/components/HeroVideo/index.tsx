@@ -10,7 +10,7 @@ export default function HeroVideo() {
           <div className="py-6 gap-x-3 space-y-3 sm:items-center">
             <Navbar />
           </div>
-          <h1 className="text-2xl font-bold font-sans tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none">
+          <h1 className="text-3xl font-bold font-sans tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none">
             Precisa Regulamentar sua Cidadania {""}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900">
               ou Nacionalidade em Portugal?

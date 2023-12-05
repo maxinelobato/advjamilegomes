@@ -15,7 +15,6 @@ import client4 from "/public/assets/client4.jpeg";
 import client5 from "/public/assets/client5.jpeg";
 
 export default function GoogleBusiness() {
-  
   return (
     <>
       <section className="bg-brandRose-200">
@@ -24,9 +23,7 @@ export default function GoogleBusiness() {
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="font-sans font-semibold text-4xl tracking-tight text-brandRed-900 sm:text-5xl sm:leading-none">
                 O que os clientes falam sobre a{" "}
-                <span className="font-extrabold">
-                  Dra. Jamile Gomes?
-                </span>
+                <span className="font-extrabold">Dra. Jamile Gomes?</span>
               </h1>
             </div>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4 xl:justify-center">
@@ -41,7 +38,7 @@ export default function GoogleBusiness() {
             </div>
           </div>
 
-          <div className="-mx-6 mt-8 lg:col-span-10 lg:mx-0">
+          <div className="mx-auto max-w-2xl px-4 pt-8 sm:px-6">
             <Swiper
               navigation={true}
               autoplay={{
@@ -52,7 +49,7 @@ export default function GoogleBusiness() {
               className="mySwiper"
             >
               <SwiperSlide>
-                <blockquote className="items-center justify-center p-6 sm:p-8 lg:p-12">
+                <blockquote className="items-center justify-center p-10 sm:p-8 lg:p-12">
                   <Image
                     src={client1}
                     alt="Imagem"
@@ -64,7 +61,7 @@ export default function GoogleBusiness() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <blockquote className="items-center justify-center p-6 sm:p-8 lg:p-12">
+                <blockquote className="items-center justify-center p-10 sm:p-8 lg:p-12">
                   <Image
                     src={client2}
                     alt="Imagem"
@@ -76,7 +73,7 @@ export default function GoogleBusiness() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <blockquote className="items-center justify-center p-6 sm:p-8 lg:p-12">
+                <blockquote className="items-center justify-center p-10 sm:p-8 lg:p-12">
                   <Image
                     src={client3}
                     alt="Imagem"
@@ -88,7 +85,7 @@ export default function GoogleBusiness() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <blockquote className="items-center justify-center p-6 sm:p-8 lg:p-12">
+                <blockquote className="items-center justify-center p-10 sm:p-8 lg:p-12">
                   <Image
                     src={client4}
                     alt="Imagem"
@@ -100,7 +97,7 @@ export default function GoogleBusiness() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <blockquote className="items-center justify-center p-6 sm:p-8 lg:p-12">
+                <blockquote className="items-center justify-center p-10 sm:p-8 lg:p-12">
                   <Image
                     src={client5}
                     alt="Imagem"
@@ -110,7 +107,6 @@ export default function GoogleBusiness() {
                   />
                 </blockquote>
               </SwiperSlide>
-
             </Swiper>
           </div>
         </div>

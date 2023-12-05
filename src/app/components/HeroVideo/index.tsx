@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 
 export default function HeroVideo() {
   return (
-    <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+    <section className="overflow-hidden bg-brandRose-200 sm:grid sm:grid-cols-2">
       <div className="p-8 md:p-12 lg:px-16 lg:py-24">
         <div className="mx-auto max-w-xl text-center sm:text-left">
           <div className="py-6 gap-x-3 space-y-3 sm:items-center">

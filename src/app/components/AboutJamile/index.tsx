@@ -4,7 +4,7 @@ import jamile from "/public/assets/bgjamile1.webp";
 export default function AboutJamile() {
   return (
     <>
-      <div className="bg-gradient-to-tr from-brandRose-200 to-brandRose-700">
+      <section className="bg-gradient-to-tr from-brandRose-200 to-brandRose-700">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
             <div className="flex flex-col justify-center">
@@ -57,7 +57,7 @@ export default function AboutJamile() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -18,11 +18,11 @@ export default function GoogleBusiness() {
   
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-brandRose-200">
         <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
           <div className="mx-auto max-w-screen-xl">
             <div className="mx-auto max-w-3xl text-center">
-              <h1 className="font-sans font-semibold text-4xl tracking-tight text-stone-950 sm:text-5xl sm:leading-none">
+              <h1 className="font-sans font-semibold text-4xl tracking-tight text-brandRed-900 sm:text-5xl sm:leading-none">
                 O que os clientes falam sobre a{" "}
                 <span className="font-extrabold">
                   Dra. Jamile Gomes?

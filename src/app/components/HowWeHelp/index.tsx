@@ -96,7 +96,7 @@ export default function HowWeHelp () {
 
   return (
     <>
-      <div className='bg-gradient-to-br from-brandRose-200 to-brandRose-700'>
+      <section className='bg-gradient-to-br from-brandRose-200 to-brandRose-700'>
         <div className='max-w-screen-xl mx-auto px-4 py-8 md:px-8'>
           <div className='mx-auto text-center'>
             <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
@@ -138,7 +138,7 @@ export default function HowWeHelp () {
           </div>
           <ServicesStats /> */}
         </div>
-      </div>
+      </section>
     </>
   )
 }

@@ -27,7 +27,7 @@ export default function Faq () {
 
   return (
     <>
-      <div className='bg-gradient-to-br from-brandRose-200 to-brandRose-700'>
+      <section className='bg-gradient-to-br from-brandRose-200 to-brandRose-700'>
         <div className='px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10'>
           <div className='max-w-xl sm:mx-auto lg:max-w-2xl'>
             <div className='max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12'>
@@ -63,7 +63,7 @@ export default function Faq () {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }

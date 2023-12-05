@@ -3,7 +3,7 @@ import ButtonHero from "../ButtonHero";
 export default function HowItWorks () {
   return (
     <>
-      <div className='bg-gradient-to-br from-brandRose-200 to-brandRose-700'>
+      <section className='bg-gradient-to-br from-brandRose-200 to-brandRose-700'>
         <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10'>
           <div className='backdrop-blur-sm bg-brandRed-900 p-8 rounded-lg shadow-lg sm:p-16'>
             <div className='flex flex-col lg:flex-row'>
@@ -31,7 +31,7 @@ export default function HowItWorks () {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }

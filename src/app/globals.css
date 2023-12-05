@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --swiper-pagination-color: #ffff;
-  --swiper-navigation-color: #a1a1a1;
+  /* --swiper-pagination-color: #ffff; */
+  --swiper-navigation-color: #5B0101;
   /* --swiper-pagination-bullet-size: 10px;
   --swiper-pagination-bullet-width: 10px;
   --swiper-pagination-bullet-height: 10px;

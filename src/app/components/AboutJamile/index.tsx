@@ -9,10 +9,10 @@ export default function AboutJamile() {
           <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
             <div className="flex flex-col justify-center">
               <div className="max-w-xl mb-6">
-                <h1 className="py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none">
-                  Sobre a Dra.{" "}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900">
-                    Jamile Gomes
+              <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandRed-900 sm:text-4xl sm:leading-none">
+                  Sobre a {""}
+                  <span className="font-black font-sans text-transparent bg-clip-text bg-brandRed-900">
+                    Dra. Jamile Gomes
                   </span>
                 </h1>
               </div>
@@ -49,7 +49,7 @@ export default function AboutJamile() {
             </div>
             <div className="flex flex-1 justify-end">
               <Image
-                className="object-contain w-auto h-auto rounded-lg shadow-lg sm:h-auto"
+                className="object-contain w-auto h-auto rounded-lg shadow-lg sm:h-[600px]"
                 src={jamile}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 alt="About Jamile"

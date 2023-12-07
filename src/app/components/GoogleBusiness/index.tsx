@@ -21,10 +21,12 @@ export default function GoogleBusiness() {
         <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
           <div className="mx-auto max-w-screen-xl">
             <div className="mx-auto max-w-3xl text-center">
-              <h1 className="font-sans font-semibold text-4xl tracking-tight text-brandRed-900 sm:text-5xl sm:leading-none">
-                O que os clientes falam sobre a{" "}
-                <span className="font-extrabold">Dra. Jamile Gomes?</span>
-              </h1>
+              <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandRed-900 sm:text-4xl sm:leading-none">
+                  O que os clientes falam {""}
+                  <span className="font-black font-sans text-transparent bg-clip-text bg-brandRed-900">
+                    sobre a Dra. Jamile Gomes
+                  </span>
+                </h1>
             </div>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4 xl:justify-center">
               <Image

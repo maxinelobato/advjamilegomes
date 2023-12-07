@@ -83,9 +83,9 @@ export default function Advantages() {
           <div className="grid gap-10 lg:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
               <div className="max-w-xl mb-6">
-                <h1 className="py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none">
-                  Você sabe as Vantagens de ser um{" "}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900">
+                <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandRed-900 sm:text-4xl sm:leading-none">
+                  Você sabe as Vantagens de ser um {""}
+                  <span className="font-black font-sans text-transparent bg-clip-text bg-brandRed-900">
                     Cidadão Português?
                   </span>
                 </h1>
@@ -94,7 +94,7 @@ export default function Advantages() {
                 <ul className="space-y-4">
                   {features.map((item, idx) => (
                     <li key={idx} className="flex gap-x-4">
-                      <div className="flex-none w-7 h-7 text-brandRed-900 rounded-lg flex justify-center items-center">
+                      <div className="flex-none w-7 h-7 text-brandOrange-900 rounded-lg flex justify-center items-center">
                         {item.icon}
                       </div>
                       <div>

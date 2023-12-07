@@ -15,7 +15,7 @@ export default function HeroVideo() {
           </div>
         </div>
         <div className="mx-auto max-w-5xl text-center">
-          <h1 className="uppercase font-sans font-medium text-3xl tracking-tight text-brandRose-200 sm:text-4xl sm:leading-none">
+          <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandRose-200 sm:text-4xl sm:leading-none">
             Precisa regulamentar sua cidadania {""}
             <span className="font-black font-sans text-transparent bg-clip-text bg-brandRose-200">
               ou nacionalidade portuguesa?

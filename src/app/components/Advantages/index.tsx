@@ -94,11 +94,11 @@ export default function Advantages() {
                 <ul className="space-y-4">
                   {features.map((item, idx) => (
                     <li key={idx} className="flex gap-x-4">
-                      <div className="flex-none w-8 h-8 text-brandRed-900 rounded-lg flex justify-center items-center">
+                      <div className="flex-none w-7 h-7 text-brandRed-900 rounded-lg flex justify-center items-center">
                         {item.icon}
                       </div>
                       <div>
-                        <h1 className="text-lg text-brandRed-900 font-semibold">
+                        <h1 className="text-sm text-brandRed-900 font-semibold">
                           {item.title}
                         </h1>
                       </div>

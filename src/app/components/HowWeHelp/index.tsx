@@ -102,7 +102,7 @@ export default function HowWeHelp () {
               </h1>
             </div>
           </div>
-          <div className='mx-auto relative mt-2'>
+          <div className='mx-auto relative pt-4 sm:pt-8'>
             <ul className='grid gap-8 sm:grid-cols-1 lg:grid-cols-3'>
               {features.map((item, idx) => (
                 <li
@@ -115,7 +115,7 @@ export default function HowWeHelp () {
                   <h1 className='text-center text-lg font-bold text-brandRose-200 '>
                     {item.title}
                   </h1>
-                  <p className='text-center text-brandRose-200'>{item.desc}</p>
+                  <p className='text-center text-sm text-brandRose-200'>{item.desc}</p>
                 </li>
               ))}
             </ul>

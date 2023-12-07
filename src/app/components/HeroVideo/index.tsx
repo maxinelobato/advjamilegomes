@@ -8,9 +8,9 @@ import LiteYouTubeEmbed from "react-lite-youtube-embed";
 export default function HeroVideo() {
   return (
     <section className="bg-gradient-to-b from-brandRed-900 to-brandRose-200">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:pt-24 lg:px-8">
+      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:pt-24 lg:px-8">
         <div className="mx-auto max-w-fit">
-          <div className="gap-x-3 space-y-2 sm:items-center">
+          <div className="-pt-10 gap-x-3 space-y-2 sm:items-center">
             <Navbar />
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function HeroVideo() {
           </p>
         </div>
 
-        <div className="max-w-2xl mx-auto mt-8">
+        <div className="max-w-2xl mx-auto pt-8">
           <div className="relative h-64 sm:h-80 lg:h-full">
             <LiteYouTubeEmbed
               id="JkLLb8Vs3zk"

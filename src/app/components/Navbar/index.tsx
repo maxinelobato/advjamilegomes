@@ -10,7 +10,7 @@ export default function Navbar () {
               <li>
                 <a href='/'>
                   <Image
-                    src='/assets/jamile-logovermelha.png'
+                    src='/assets/jamile-logobranca.png'
                     width={150}
                     height={50}
                     alt='Logo Jamile'

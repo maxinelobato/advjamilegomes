@@ -38,7 +38,7 @@ export default function GoogleBusiness() {
             </div>
           </div>
 
-          <div className="mx-auto max-w-2xl px-4 pt-8 sm:px-6">
+          <div className="mx-auto max-w-4xl px-4 pt-8 sm:px-6">
             <Swiper
               navigation={true}
               autoplay={{

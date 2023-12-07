@@ -47,7 +47,7 @@ export default function AboutJamile() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-1">
+            <div className="flex flex-1 justify-end">
               <Image
                 className="object-contain w-auto h-auto rounded-lg shadow-lg sm:h-auto"
                 src={jamile}

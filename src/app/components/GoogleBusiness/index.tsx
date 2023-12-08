@@ -51,7 +51,7 @@ export default function GoogleBusiness() {
               className="mySwiper"
             >
               <SwiperSlide>
-                <blockquote className="items-center justify-center p-10 sm:p-8 lg:p-12">
+                <blockquote className="items-center justify-center sm:p-8 lg:p-12">
                   <Image
                     src={client1}
                     alt="Imagem"
@@ -63,7 +63,7 @@ export default function GoogleBusiness() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <blockquote className="items-center justify-center p-10 sm:p-8 lg:p-12">
+                <blockquote className="items-center justify-center sm:p-8 lg:p-12">
                   <Image
                     src={client2}
                     alt="Imagem"
@@ -75,7 +75,7 @@ export default function GoogleBusiness() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <blockquote className="items-center justify-center p-10 sm:p-8 lg:p-12">
+                <blockquote className="items-center justify-center sm:p-8 lg:p-12">
                   <Image
                     src={client3}
                     alt="Imagem"
@@ -87,7 +87,7 @@ export default function GoogleBusiness() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <blockquote className="items-center justify-center p-10 sm:p-8 lg:p-12">
+                <blockquote className="items-center justify-center sm:p-8 lg:p-12">
                   <Image
                     src={client4}
                     alt="Imagem"
@@ -99,7 +99,7 @@ export default function GoogleBusiness() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <blockquote className="items-center justify-center p-10 sm:p-8 lg:p-12">
+                <blockquote className="items-center justify-center sm:p-8 lg:p-12">
                   <Image
                     src={client5}
                     alt="Imagem"

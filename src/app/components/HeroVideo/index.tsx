@@ -31,6 +31,7 @@ export default function HeroVideo() {
             <LiteYouTubeEmbed
               id="JkLLb8Vs3zk"
               adNetwork={false}
+              cookie={true}
               rel="preload"
               title="POR QUE TER UMA ADVOGADA NO PROCESSO DE NACIONALIDADE PORTUGUESA?"
             />

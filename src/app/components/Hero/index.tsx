@@ -1,10 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import ButtonHero from "../Buttons";
-import Navbar from "../Navbar";
-import GoogleReviews from "../GoogleReviews";
 import jamile from "/public/assets/bgjamile1.webp";
+import ButtonHero from "../Buttons/buttonhero";
+import GoogleReviews from "../GoogleReviews";
 
 export default function Hero() {
   return (
@@ -29,7 +28,13 @@ export default function Hero() {
         </div>
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
           <div className="mb-10 lg:my-40 lg:max-w-lg lg:pr-5">
-            <Navbar />
+            <Image
+              src="/assets/jamile-logovermelha.png"
+              width={150}
+              height={50}
+              alt="Logo Jamile"
+              loading="lazy"
+            />
             <h1 className="py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none">
               Precisando de uma Advogada em Portugal para pedir a sua
               <br className="hidden md:block" />{" "}

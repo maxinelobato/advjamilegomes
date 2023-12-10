@@ -1,6 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import './swiper.css'
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -17,13 +18,12 @@ import client5 from "/public/assets/client5.jpeg";
 export default function GoogleBusiness() {
   return (
     <>
-      <section className="bg-brandRose-200">
         <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
           <div className="mx-auto max-w-screen-xl">
             <div className="mx-auto max-w-3xl text-center">
-              <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandRed-900 sm:text-4xl sm:leading-none">
+              <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
                   O que os clientes falam {""}
-                  <span className="font-black font-sans text-transparent bg-clip-text bg-brandRed-900">
+                  <span className="font-black font-sans text-transparent bg-clip-text bg-brandSecondary">
                     sobre a Dra. Jamile Gomes
                   </span>
                 </h1>
@@ -112,7 +112,6 @@ export default function GoogleBusiness() {
             </Swiper>
           </div>
         </div>
-      </section>
     </>
   );
 }

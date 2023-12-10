@@ -1,4 +1,4 @@
-import ButtonHero from '../ButtonHero'
+import ButtonHero from '../Buttons'
 
 export default function ServicesStats () {
   const features = [

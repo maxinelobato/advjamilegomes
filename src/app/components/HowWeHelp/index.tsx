@@ -1,5 +1,3 @@
-import ServicesStats from "./servicestats";
-
 export default function HowWeHelp() {
   const features = [
     {
@@ -90,13 +88,12 @@ export default function HowWeHelp() {
 
   return (
     <>
-      <section className="bg-gradient-to-br from-brandRose-200 to-brandRose-700">
         <div className="max-w-screen-xl mx-auto px-4 py-8 md:px-8">
           <div className="mx-auto text-center">
             <div className="space-y-5 max-w-4xl mx-auto text-center px-4 py-8">
-              <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandRed-900 sm:text-4xl sm:leading-none">
+              <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
                 Veja como podemos {""}
-                <span className="font-black font-sans text-transparent bg-clip-text bg-brandRed-900">
+                <span className="font-black font-sans text-transparent bg-clip-text bg-brandSecondary">
                   ajudar você
                 </span>
               </h1>
@@ -107,10 +104,10 @@ export default function HowWeHelp() {
               {features.map((item, idx) => (
                 <li
                   key={idx}
-                  className="bg-brandRed-900 space-y-3 p-4 rounded-lg drop-shadow-lg hover:transition-all"
+                  className="bg-gradient-to-tr from-brandSecondary to-brandAccent shadow-lg shadow-black/50 space-y-3 p-4 rounded-lg hover:transition-all"
                 >
                   <div className="flex items-center justify-center">
-                    <div className="text-brandOrange-900 pb-1">{item.icon}</div>
+                    <div className="text-brandBase2-200 pb-1">{item.icon}</div>
                   </div>
                   <h1 className="text-center text-lg font-bold text-brandRose-200 ">
                     {item.title}
@@ -122,19 +119,7 @@ export default function HowWeHelp() {
               ))}
             </ul>
           </div>
-          {/* <div className='mx-auto text-center'>
-            <div className='space-y-5 max-w-4xl mx-auto text-center px-4 py-8'>
-              <h1 className='py-4 mb-5 font-sans text-3xl font-bold tracking-tight text-brandRed-900 sm:text-4xl sm:leading-none'>
-                Veja todos os serviços que{' '}
-                <span className='text-transparent bg-clip-text bg-gradient-to-r from-brandRed-900 to-brandOrange-900'>
-                  podemos lhe auxiliar
-                </span>
-              </h1>
-            </div>
-          </div>
-          <ServicesStats /> */}
         </div>
-      </section>
     </>
   );
 }

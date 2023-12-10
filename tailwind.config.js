@@ -23,16 +23,27 @@ module.exports = {
         },
         brandOrange: {
           900: '#D19343'
-        }
+        },
+        brandBase1: {
+          100: '#fffbec'
+        },
+        brandBase2: {
+          200: '#e3deca'
+        },
+        brandBase3: {
+          300: '#d19244'
+        },
+        brandPrimary: '#aa6231',
+        brandSecondary: '#5c2c0c',
+        brandAccent: '#3c3a1e',
       }
-    }
+    },
   },
   daisyui: {
     themes: [
       {
         brand: {
-          primary: '#D19343',
-          secondary: '#B8979A',
+          primary: '#5c2c0c',
         }
       }
     ]

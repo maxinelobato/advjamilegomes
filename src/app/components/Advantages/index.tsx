@@ -81,14 +81,13 @@ export default function Advantages() {
 
   return (
     <>
-      <section className="bg-gradient-to-tr from-brandRose-200 to-brandRose-700">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="grid gap-10 lg:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
               <div className="max-w-xl mb-6">
-                <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandRed-900 sm:text-4xl sm:leading-none">
+                <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
                   Você sabe as Vantagens de ser um {""}
-                  <span className="font-black font-sans text-transparent bg-clip-text bg-brandRed-900">
+                  <span className="font-black font-sans text-transparent bg-clip-text bg-brandSecondary">
                     Cidadão Português?
                   </span>
                 </h1>
@@ -97,7 +96,7 @@ export default function Advantages() {
                 <ul className="space-y-4">
                   {features.map((item, idx) => (
                     <li key={idx} className="flex gap-x-4">
-                      <div className="flex-none w-7 h-7 text-brandOrange-900 rounded-lg flex justify-center items-center">
+                      <div className="flex-none w-7 h-7 text-brandSecondary rounded-lg flex justify-center items-center">
                         {item.icon}
                       </div>
                       <div>
@@ -113,7 +112,7 @@ export default function Advantages() {
             <div className="flex items-center justify-center -mx-4 lg:pl-8">
               <div className="flex flex-col items-end px-3">
                 <Image
-                  className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
+                  className="object-cover mb-6 rounded-lg shadow-lg shadow-black/50 h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
                   width={300}
                   height={300}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -121,7 +120,7 @@ export default function Advantages() {
                   alt="Image 1"
                 />
                 <Image
-                  className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+                  className="object-cover w-20 h-20 rounded-lg shadow-lg shadow-black/50 sm:h-32 xl:h-40 sm:w-32 xl:w-40"
                   width={300}
                   height={300}
                   src={bg2}
@@ -130,7 +129,7 @@ export default function Advantages() {
               </div>
               <div className="px-3">
                 <Image
-                  className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+                  className="object-cover w-40 h-40 rounded-lg shadow-lg shadow-black/50 sm:h-64 xl:h-80 sm:w-64 xl:w-80"
                   width={300}
                   height={300}
                   src={bg3}
@@ -140,7 +139,6 @@ export default function Advantages() {
             </div>
           </div>
         </div>
-      </section>
     </>
   );
 }

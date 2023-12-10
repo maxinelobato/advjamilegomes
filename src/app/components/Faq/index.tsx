@@ -1,4 +1,5 @@
 "use client";
+
 export default function Faq() {
   const faqList = [
     {
@@ -27,15 +28,14 @@ export default function Faq() {
 
   return (
     <>
-      <section className="bg-gradient-to-br from-brandRose-200 to-brandRose-700">
-        <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
+        <div className="px-4 pb-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-16">
           <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
               <div className="mx-auto text-center">
                 <div className="space-y-5 max-w-4xl mx-auto text-center px-4 py-2">
-                  <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandRed-900 sm:text-4xl sm:leading-none">
+                  <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
                     FAQ - {""}
-                    <span className="font-black font-sans text-transparent bg-clip-text bg-brandRed-900">
+                    <span className="font-black font-sans text-transparent bg-clip-text bg-brandSecondary">
                       Dúvidas Frequentes
                     </span>
                   </h1>
@@ -49,17 +49,17 @@ export default function Faq() {
                 <div
                   key={idx}
                   tabIndex={0}
-                  className="collapse rounded-lg collapse-arrow bg-brandOrange-900"
+                  className="collapse rounded-lg collapse-arrow bg-brandSecondary"
                 >
                   <input
                     type="checkbox"
                     className="peer"
                     aria-label="checkbox"
                   />
-                  <div className="collapse-title font-sans font-bold text-brandRed-900">
+                  <div className="collapse-title font-sans font-bold text-brandBase1-100">
                     {item.title}
                   </div>
-                  <div className="collapse-content font-sans font-semibold text-sm text-brandRed-900">
+                  <div className="collapse-content font-sans font-semibold text-sm text-brandBase2-200">
                     <p>{item.subtitle}</p>
                   </div>
                 </div>
@@ -67,7 +67,6 @@ export default function Faq() {
             </div>
           </div>
         </div>
-      </section>
     </>
   );
 }

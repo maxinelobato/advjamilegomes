@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import ButtonHero from "../ButtonHero";
+import ButtonHero from "../Buttons";
 import Navbar from "../Navbar";
 import GoogleReviews from "../GoogleReviews";
 import jamile from "/public/assets/bgjamile1.webp";

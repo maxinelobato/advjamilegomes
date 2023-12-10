@@ -18,7 +18,7 @@ export default function HeroVideo() {
   return (
     <section className="bg-gradient-to-b from-brandBase1-100 to-brandBase2-200">
       <div className="overflow-hidden sm:grid sm:grid-cols-2 sm:items-center">
-        <div className="p-8 md:p-12 lg:px-16 lg:py-12">
+        <div className="p-8 mt-4 sm:mb-16 lg:px-16 lg:py-12">
           <div className="mx-auto max-w-xl text-center sm:text-left">
             <div className="mx-auto max-w-fit sm:max-w-xl -pt-0 pb-8 sm:-pt-16">
               <Image
@@ -46,11 +46,12 @@ export default function HeroVideo() {
             <GoogleReviews />
           </div>
         </div>
-        <div className="h-full w-full object-cover p-4 items-center">
+        <div className="h-full w-full object-cover pt-0 p-4 items-center sm:pt-12">
           <LiteYouTubeEmbed
             id="JkLLb8Vs3zk"
             cookie={true}
             playlist={false}
+            params="autoplay=1&rel=0"
             rel="preload"
             title="POR QUE TER UMA ADVOGADA NO PROCESSO DE NACIONALIDADE PORTUGUESA?"
           />

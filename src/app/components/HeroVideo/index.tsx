@@ -22,7 +22,7 @@ export default function HeroVideo() {
           <div className="mx-auto max-w-xl text-center sm:text-left">
             <div className="mx-auto max-w-fit sm:max-w-xl -pt-0 pb-8 sm:-pt-16">
               <Image
-                src="/assets/jamile-logovermelha.png"
+                src="/assets/jamilelogo1.svg"
                 width={150}
                 height={50}
                 alt="Logo Jamile"

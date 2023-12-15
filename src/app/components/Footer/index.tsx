@@ -17,7 +17,7 @@ export default function Footer() {
                 width={100}
                 height={100}
                 loading="lazy"
-                src="/assets/jamile-logovermelha.png"
+                src="/assets/jamilelogo2.svg"
                 className="sm:mx-auto"
               />
             </a>

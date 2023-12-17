@@ -16,9 +16,16 @@
 // import client5 from "/public/assets/client5.jpeg";
 // import Script from "next/script";
 
-import { ElfsightWidget } from "react-elfsight-widget";
+import dynamic from 'next/dynamic'
+ 
+const DynamicGoogleElfsightWidget = dynamic(() => import('../GoogleElfsightWidget'), {
+  loading: () => <p>Loading...</p>,
+})
+
+// import { ElfsightWidget } from "react-elfsight-widget";
 
 export default function GoogleBusiness() {
+
   return (
     <>
       <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
@@ -43,7 +50,7 @@ export default function GoogleBusiness() {
             className="elfsight-app-3f69b63e-055a-45cd-8844-18ae4b4c401d"
             data-elfsight-app-lazy
           ></div> */}
-          <ElfsightWidget widgetId="3f69b63e-055a-45cd-8844-18ae4b4c401d" rel="dns-prefetch" />
+          <DynamicGoogleElfsightWidget />
         </div>
       </div>
       {/* <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">

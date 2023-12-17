@@ -1,7 +1,6 @@
-"use client";
+'use client'
 
 import Script from "next/script";
-// import { ElfsightWidget } from "react-elfsight-widget";
 
 export default function GoogleElfsightWidget() {
   return (

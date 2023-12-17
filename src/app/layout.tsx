@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";

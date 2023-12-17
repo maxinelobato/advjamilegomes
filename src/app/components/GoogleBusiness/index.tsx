@@ -43,7 +43,7 @@ export default function GoogleBusiness() {
             className="elfsight-app-3f69b63e-055a-45cd-8844-18ae4b4c401d"
             data-elfsight-app-lazy
           ></div> */}
-          <ElfsightWidget widgetId="3f69b63e-055a-45cd-8844-18ae4b4c401d" rel="dns-prefetch" lazy />
+          <ElfsightWidget widgetId="3f69b63e-055a-45cd-8844-18ae4b4c401d" rel="dns-prefetch" />
         </div>
       </div>
       {/* <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">

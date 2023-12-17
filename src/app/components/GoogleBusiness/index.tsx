@@ -19,7 +19,7 @@
 import dynamic from 'next/dynamic'
  
 const DynamicGoogleElfsightWidget = dynamic(() => import('../GoogleElfsightWidget'), {
-  loading: () => <p>Carregando...</p>,
+  ssr: false,
 })
 
 // import { ElfsightWidget } from "react-elfsight-widget";

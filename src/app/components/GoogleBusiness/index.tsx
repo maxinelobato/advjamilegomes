@@ -1,20 +1,22 @@
 "use client";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "./swiper.css";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import "./swiper.css";
 
-import "swiper/css";
-import "swiper/css/navigation";
+// import "swiper/css";
+// import "swiper/css/navigation";
 
-import { Navigation, Autoplay } from "swiper/modules";
+// import { Navigation, Autoplay } from "swiper/modules";
 
-import Image from "next/image";
-import client1 from "/public/assets/client1.jpeg";
-import client2 from "/public/assets/client2.jpeg";
-import client3 from "/public/assets/client3.jpeg";
-import client4 from "/public/assets/client4.jpeg";
-import client5 from "/public/assets/client5.jpeg";
-import Script from "next/script";
+// import Image from "next/image";
+// import client1 from "/public/assets/client1.jpeg";
+// import client2 from "/public/assets/client2.jpeg";
+// import client3 from "/public/assets/client3.jpeg";
+// import client4 from "/public/assets/client4.jpeg";
+// import client5 from "/public/assets/client5.jpeg";
+// import Script from "next/script";
+
+import { ElfsightWidget } from "react-elfsight-widget";
 
 export default function GoogleBusiness() {
   return (
@@ -31,7 +33,7 @@ export default function GoogleBusiness() {
           </div>
         </div>
         <div className="mx-auto max-w-6xl px-4 pt-8 sm:px-6">
-          <Script
+          {/* <Script
             strategy="afterInteractive"
             src="https://static.elfsight.com/platform/platform.js"
             data-use-service-core
@@ -40,7 +42,8 @@ export default function GoogleBusiness() {
           <div
             className="elfsight-app-3f69b63e-055a-45cd-8844-18ae4b4c401d"
             data-elfsight-app-lazy
-          ></div>
+          ></div> */}
+          <ElfsightWidget widgetId="3f69b63e-055a-45cd-8844-18ae4b4c401d" />
         </div>
       </div>
       {/* <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">

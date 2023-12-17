@@ -6,6 +6,7 @@ import Script from "next/script";
 const montserrat = Montserrat({
   subsets: ["latin", "cyrillic", "cyrillic-ext", "latin-ext", "vietnamese"],
   weight: ["100", "200", "300", "400"],
+  display: "swap"
 });
 
 export const metadata = {

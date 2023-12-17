@@ -1,12 +1,13 @@
 import { Suspense } from "react";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
-import Script from "next/script";
+import { GoogleTagManager } from "@next/third-parties/google";
+// import Script from "next/script";
 
 const montserrat = Montserrat({
   subsets: ["latin", "cyrillic", "cyrillic-ext", "latin-ext", "vietnamese"],
   weight: ["100", "200", "300", "400"],
-  display: "swap"
+  display: "swap",
 });
 
 export const metadata = {
@@ -23,8 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <Suspense>
-        <Script
+      {/* <Script
           id="gtag-base"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -36,21 +36,9 @@ export default function RootLayout({
             })(window,document,'script','dataLayer', 'GTM-TTQ336T');
           `,
           }}
-        ></Script>
-      </Suspense>
-      <body className={montserrat.className}>
-        <Suspense>{children}</Suspense>
-        <Suspense>
-          <noscript>
-            <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=GTM-TTQ336T`}
-              height="0"
-              width="0"
-              style={{ display: "none", visibility: "hidden" }}
-            />
-          </noscript>
-        </Suspense>
-      </body>
+        ></Script> */}
+      <body className={montserrat.className}>{children}</body>
+      <GoogleTagManager gtmId="GTM-TTQ336T" />
     </html>
   );
 }

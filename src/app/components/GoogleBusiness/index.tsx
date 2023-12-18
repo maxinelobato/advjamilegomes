@@ -81,6 +81,7 @@ export default function GoogleBusiness() {
                     src={client1}
                     alt="Imagem"
                     rel="preload"
+                    layout="responsive"
                     className="cursor-pointer rounded-2xl"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
@@ -105,6 +106,7 @@ export default function GoogleBusiness() {
                     src={client3}
                     alt="Imagem"
                     rel="preload"
+                    layout="responsive"
                     className="cursor-pointer rounded-2xl"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
@@ -117,6 +119,7 @@ export default function GoogleBusiness() {
                     src={client4}
                     alt="Imagem"
                     rel="preload"
+                    layout="responsive"
                     className="cursor-pointer rounded-2xl"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
@@ -129,6 +132,7 @@ export default function GoogleBusiness() {
                     src={client5}
                     alt="Imagem"
                     rel="preload"
+                    layout="responsive"
                     className="cursor-pointer rounded-2xl"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />

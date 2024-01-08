@@ -78,11 +78,17 @@ export default function GoogleBusiness() {
               <blockquote className="items-center justify-center sm:p-8 lg:p-12">
                 <Image
                   src={client1}
-                  alt="Imagem"
+                  alt="Imagem 1"
                   rel="preload"
-                  layout="responsive"
                   className="cursor-pointer rounded-2xl"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  width={500}
+                  height={500}
+                  sizes="100vw"
+                  loading="lazy"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                  }}
                 />
               </blockquote>
             </SwiperSlide>
@@ -91,10 +97,17 @@ export default function GoogleBusiness() {
               <blockquote className="items-center justify-center sm:p-8 lg:p-12">
                 <Image
                   src={client2}
-                  alt="Imagem"
+                  alt="Imagem 2"
                   rel="preload"
                   className="cursor-pointer rounded-2xl"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  width={500}
+                  height={500}
+                  sizes="100vw"
+                  loading="lazy"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                  }}
                 />
               </blockquote>
             </SwiperSlide>
@@ -103,17 +116,17 @@ export default function GoogleBusiness() {
               <blockquote className="items-center justify-center sm:p-8 lg:p-12">
                 <Image
                   src={client3}
-                  alt="Imagem"
+                  alt="Imagem 3"
                   rel="preload"
                   className="cursor-pointer rounded-2xl"
                   width={500}
                   height={500}
                   sizes="100vw"
+                  loading="lazy"
                   style={{
                     width: "100%",
                     height: "auto",
                   }}
-                  priority
                 />
               </blockquote>
             </SwiperSlide>
@@ -122,17 +135,17 @@ export default function GoogleBusiness() {
               <blockquote className="items-center justify-center sm:p-8 lg:p-12">
                 <Image
                   src={client4}
-                  alt="Imagem"
+                  alt="Imagem 4"
                   rel="preload"
                   className="cursor-pointer rounded-2xl"
                   width={500}
                   height={500}
                   sizes="100vw"
+                  loading="lazy"
                   style={{
                     width: "100%",
                     height: "auto",
                   }}
-                  priority
                 />
               </blockquote>
             </SwiperSlide>
@@ -141,17 +154,17 @@ export default function GoogleBusiness() {
               <blockquote className="items-center justify-center sm:p-8 lg:p-12">
                 <Image
                   src={client5}
-                  alt="Imagem"
+                  alt="Imagem 5"
                   rel="preload"
                   className="cursor-pointer rounded-2xl"
                   width={500}
                   height={500}
                   sizes="100vw"
+                  loading="lazy"
                   style={{
                     width: "100%",
                     height: "auto",
                   }}
-                  priority
                 />
               </blockquote>
             </SwiperSlide>

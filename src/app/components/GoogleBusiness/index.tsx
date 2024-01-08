@@ -81,14 +81,7 @@ export default function GoogleBusiness() {
                   alt="Imagem 1"
                   rel="preload"
                   className="cursor-pointer rounded-2xl"
-                  width={500}
-                  height={500}
-                  sizes="100vw"
-                  loading="lazy"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                  }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </blockquote>
             </SwiperSlide>
@@ -100,14 +93,7 @@ export default function GoogleBusiness() {
                   alt="Imagem 2"
                   rel="preload"
                   className="cursor-pointer rounded-2xl"
-                  width={500}
-                  height={500}
-                  sizes="100vw"
-                  loading="lazy"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                  }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </blockquote>
             </SwiperSlide>
@@ -119,14 +105,7 @@ export default function GoogleBusiness() {
                   alt="Imagem 3"
                   rel="preload"
                   className="cursor-pointer rounded-2xl"
-                  width={500}
-                  height={500}
-                  sizes="100vw"
-                  loading="lazy"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                  }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </blockquote>
             </SwiperSlide>
@@ -138,14 +117,7 @@ export default function GoogleBusiness() {
                   alt="Imagem 4"
                   rel="preload"
                   className="cursor-pointer rounded-2xl"
-                  width={500}
-                  height={500}
-                  sizes="100vw"
-                  loading="lazy"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                  }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </blockquote>
             </SwiperSlide>
@@ -157,14 +129,7 @@ export default function GoogleBusiness() {
                   alt="Imagem 5"
                   rel="preload"
                   className="cursor-pointer rounded-2xl"
-                  width={500}
-                  height={500}
-                  sizes="100vw"
-                  loading="lazy"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                  }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </blockquote>
             </SwiperSlide>

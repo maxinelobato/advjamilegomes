@@ -49,8 +49,8 @@ export default function HeroVideo() {
         </div>
         <div className="h-auto w-full object-cover pt-0 p-4 items-center sm:pt-0">
           <LiteYouTubeEmbed
+            noCookie={true}
             id="JkLLb8Vs3zk"
-            cookie={true}
             playlist={false}
             params="autoplay=1&rel=0"
             rel="preload"

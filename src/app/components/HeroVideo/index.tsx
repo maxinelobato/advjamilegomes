@@ -13,6 +13,7 @@ import AboutJamile from "../AboutJamile";
 import GoogleBusiness from "../GoogleBusiness";
 import Faq from "../Faq";
 import Footer from "../Footer";
+import LogoJam from '../../../../public/assets/jamilelogo1.svg'
 
 export default function HeroVideo() {
   return (
@@ -22,7 +23,7 @@ export default function HeroVideo() {
           <div className="text-center sm:text-left">
             <div className="mx-auto sm:mx-0 max-w-fit sm:max-w-lg -pt-0 pb-8 sm:-pt-16">
               <Image
-                src="/assets/jamilelogo1.svg"
+               src={LogoJam}
                 width={150}
                 height={50}
                 alt="Logo Jamile"

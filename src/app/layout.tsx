@@ -1,13 +1,14 @@
 import "./globals.css";
 import { Montserrat } from "next/font/google";
-import { GoogleTagManager } from "@next/third-parties/google";
-// import Script from "next/script";
+import Script from "next/script";
+
+const GTM_ID = 'GTM-TTQ336T'
 
 const montserrat = Montserrat({
-  subsets: ["latin", "cyrillic", "cyrillic-ext", "latin-ext", "vietnamese"],
-  weight: ["100", "200", "300", "400"],
-  display: "swap",
-});
+  subsets: ['latin', 'latin-ext'],
+  display: 'swap',
+  variable: '--font-montserrat',
+})
 
 export const metadata = {
   title:
@@ -23,21 +24,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      {/* <Script
-          id="gtag-base"
-          strategy="afterInteractive"
+       <Script id="google-tag-manager" strategy="worker">
+        {`
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','${GTM_ID}');
+        `}
+      </Script>
+      <body className={`${montserrat.variable} scroll-smooth antialiased`}>
+      <noscript
           dangerouslySetInnerHTML={{
-            __html: `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer', 'GTM-TTQ336T');
-          `,
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
           }}
-        ></Script> */}
-      <body className={montserrat.className}>{children}</body>
-      <GoogleTagManager gtmId="GTM-TTQ336T" />
+        />
+        {children}
+        </body>
     </html>
   );
 }

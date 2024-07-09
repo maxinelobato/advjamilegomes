@@ -17,10 +17,10 @@ import Footer from "../Footer";
 export default function HeroVideo() {
   return (
     <section className="bg-gradient-to-b from-brandBase1-100 to-brandBase2-200">
-      <div className="overflow-hidden sm:grid sm:grid-cols-2 sm:items-center">
-        <div className="p-8 mt-4 sm:mb-16 lg:px-16 lg:py-12">
-          <div className="mx-auto max-w-xl text-center sm:text-left">
-            <div className="mx-auto max-w-fit sm:max-w-xl -pt-0 pb-8 sm:-pt-16">
+      <div className="overflow-hidden mx-auto max-w-7xl sm:grid sm:grid-cols-2 sm:items-center">
+        <div className="p-8 mt-4 sm:mb-16 lg:py-12">
+          <div className="text-center sm:text-left">
+            <div className="mx-auto sm:mx-0 max-w-fit sm:max-w-lg -pt-0 pb-8 sm:-pt-16">
               <Image
                 src="/assets/jamilelogo1.svg"
                 width={150}
@@ -42,11 +42,11 @@ export default function HeroVideo() {
               <ButtonHero />
             </div>
           </div>
-          <div className="mx-auto max-w-xl text-center sm:text-left">
+          <div className="max-w-md text-center sm:text-left">
             <GoogleReviews />
           </div>
         </div>
-        <div className="h-full w-full object-cover pt-0 p-4 items-center sm:pt-12">
+        <div className="h-auto w-full object-cover pt-0 p-4 items-center sm:pt-0">
           <LiteYouTubeEmbed
             id="JkLLb8Vs3zk"
             cookie={true}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import LogoLM from '/public/assets/lb.org-branca.svg'
 
 export default function Footer() {
   return (
@@ -82,7 +83,7 @@ export default function Footer() {
                 width={100}
                 height={100}
                 loading="lazy"
-                src="/assets/signaturemidia-preta.png"
+                src={LogoLM}
                 className="w-10 sm:mx-auto"
               />
             </li>

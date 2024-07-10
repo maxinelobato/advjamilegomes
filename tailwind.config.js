@@ -10,9 +10,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: 'var(--font-montserrat)',
-      },
       colors: {
         brandRed: {
           900: '#5B0101'

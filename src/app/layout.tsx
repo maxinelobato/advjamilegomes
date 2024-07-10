@@ -5,9 +5,9 @@ import Script from "next/script";
 const GTM_ID = 'GTM-TTQ336T'
 
 const montserrat = Montserrat({
-  subsets: ['latin', 'latin-ext'],
+  subsets: ['latin'],
   display: 'swap',
-  variable: '--font-montserrat',
+  preload: true,
 })
 
 export const metadata = {
@@ -33,7 +33,7 @@ export default function RootLayout({
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
       </Script>
-      <body className={`${montserrat.variable} scroll-smooth antialiased`}>
+      <body className={`${montserrat.className} scroll-smooth antialiased`}>
       <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,

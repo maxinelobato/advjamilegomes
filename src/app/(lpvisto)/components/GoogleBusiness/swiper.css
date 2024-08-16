@@ -1,0 +1,15 @@
+:root {
+  --swiper-navigation-color: #a1a1a1;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+

@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import {
-  ButtonHome,
   ButtonHomeFlex,
   ButtonHomeText,
 } from '@/app/components/ButtonCta'
@@ -16,7 +15,8 @@ import {
 import imgDesktop from '@/../../public/assets/portugalmagick.webp'
 import imgMobile from '@/../../public/assets/portugalmagick.webp'
 import LogoJam from '@/../../public/assets/jamilelogo1.svg'
-import { WhatsappLogo, ArrowElbowRight } from '@phosphor-icons/react/dist/ssr'
+import { ArrowElbowRight } from '@phosphor-icons/react/dist/ssr'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -64,18 +64,18 @@ export default function Home() {
             Clique nos botões abaixo e escolha sua especialidade
           </HeroParagraph>
           <div className='flex flex-col itens-center py-8 gap-4 sm:flex-row'>
-          <ButtonHome href="/visto">
+          <Link href="/visto" passHref className="focus:shadow-outline z-50 inline-flex h-14 w-full items-center justify-center rounded-full bg-brandRed-900 px-8 font-medium text-white shadow-sm shadow-black/30 delay-0 duration-75 ease-in-out hover:scale-105 hover:transition-opacity focus:outline-none sm:h-14 md:w-auto">
             <ButtonHomeText>Visto</ButtonHomeText>
             <ButtonHomeFlex>
               <ArrowElbowRight size={24} weight="fill" />
             </ButtonHomeFlex>
-          </ButtonHome>
-          <ButtonHome href="/nacionalidade">
+          </Link>
+          <Link href="/nacionalidade" passHref className="focus:shadow-outline z-50 inline-flex h-14 w-full items-center justify-center rounded-full bg-brandRed-900 px-8 font-medium text-white shadow-sm shadow-black/30 delay-0 duration-75 ease-in-out hover:scale-105 hover:transition-opacity focus:outline-none sm:h-14 md:w-auto">
             <ButtonHomeText>Nacionalidade</ButtonHomeText>
             <ButtonHomeFlex>
               <ArrowElbowRight size={24} weight="fill" />
             </ButtonHomeFlex>
-          </ButtonHome>
+          </Link>
           </div>
         </HeroSectionProperty>
       </HeroRoot>

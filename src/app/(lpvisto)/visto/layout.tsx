@@ -2,7 +2,7 @@ import "./globals.css";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
 
-const GTM_ID = 'GTM-TTQ336T'
+const GTM_ID = 'GTM-NPND4R85'
 
 const montserrat = Montserrat({
   subsets: ['latin'],

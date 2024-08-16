@@ -33,6 +33,7 @@ module.exports = {
         brandPrimary: '#aa6231',
         brandSecondary: '#5c2c0c',
         brandAccent: '#3c3a1e',
+        brandWts: '#006400',
       }
     },
   },

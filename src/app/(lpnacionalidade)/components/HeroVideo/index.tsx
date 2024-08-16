@@ -13,7 +13,7 @@ import AboutJamile from "../AboutJamile";
 import GoogleBusiness from "../GoogleBusiness";
 import Faq from "../Faq";
 import Footer from "../Footer";
-import LogoJam from '../../../../public/assets/jamilelogo1.svg'
+import LogoJam from '../../../../../public/assets/jamilelogo1.svg'
 
 export default function HeroVideo() {
   return (

@@ -25,7 +25,7 @@ type HeroSectionPropertyProps = ComponentProps<'div'>
 
 export function HeroSectionProperty(props: HeroSectionPropertyProps) {
   return (
-    <div className="mx-auto py-36 sm:max-w-xl md:max-w-full md:px-20 lg:max-w-6xl lg:px-4">
+    <div className="mx-auto py-24 sm:max-w-xl md:max-w-full md:px-20 lg:max-w-6xl lg:px-4">
       <div className="flex flex-col items-center justify-between xl:flex-row">
         <div className="z-50 mb-0 w-full max-w-6xl p-4 xl:w-8/12" {...props} />
       </div>
@@ -38,7 +38,7 @@ type HeroH1Props = ComponentProps<'h1'>
 export function HeroH1(props: HeroH1Props) {
   return (
     <h1
-      className="z-50 pb-6 text-center text-3xl font-extrabold uppercase text-brandRed-900 sm:text-left sm:text-5xl md:mx-auto"
+      className="z-50 pb-6 text-center text-2xl font-extrabold uppercase text-brandRed-900 sm:text-left sm:text-5xl md:mx-auto"
       {...props}
     />
   )
@@ -95,7 +95,7 @@ export function HeroDivide(props: HeroDivideProps) {
   return (
     <span className="relative flex justify-center py-6">
       <div
-        className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-yellow-400 to-transparent opacity-75"
+        className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-brandRed-900 to-transparent opacity-90"
         {...props}
       />
     </span>

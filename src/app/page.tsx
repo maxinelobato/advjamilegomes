@@ -47,16 +47,17 @@ export default function Home() {
                src={LogoJam}
                 width={150}
                 height={50}
+                className='w-48 h-auto sm:w-60 sm:h-auto'
                 alt="Logo Jamile"
                 loading="lazy"
               />
             </div>
-          <HeroH1>Se você caiu nesta página</HeroH1>
+          <HeroH1>Se você está nesta página</HeroH1>
           <HeroParagraph>
             É por que você está buscando
           </HeroParagraph>
           <HeroParagraph>
-            <HeroParagraphStrong>Visto</HeroParagraphStrong> ou <HeroParagraphStrong>Nacionalidade/Cidadania</HeroParagraphStrong> Portuguesa 
+            <HeroParagraphStrong>Visto</HeroParagraphStrong>, <HeroParagraphStrong>Nacionalidade ou Cidadania</HeroParagraphStrong> Portuguesa 
           </HeroParagraph>
           <HeroDivide />
           <HeroParagraph>

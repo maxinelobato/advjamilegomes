@@ -9,7 +9,7 @@ type HeroGradientProps = ComponentProps<'div'>
 export function HeroGradient(props: HeroGradientProps) {
   return (
     <div
-      className="absolute h-full w-full bg-gradient-to-b sm:bg-gradient-to-r from-brandBase1-100 from-30% to-brandBase3-300/30 to-90% p-6 md:p-12 lg:px-16 lg:py-12"
+      className="absolute h-full w-full bg-gradient-to-b sm:bg-gradient-to-r from-brandBase1-100 from-30% to-brandBase3-300/30 to-90%"
       {...props}
     />
   )

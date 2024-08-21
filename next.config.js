@@ -11,6 +11,20 @@ const nextConfig = {
           },
         ],
       },
+      async redirects() {
+        return [
+          {
+            source: '/',
+            destination: '/nacionalidade',
+            permanent: false,
+          },
+          {
+            source: '/',
+            destination: '/visto',
+            permanent: false,
+          },
+        ]
+      },
 }
 
 module.exports = nextConfig

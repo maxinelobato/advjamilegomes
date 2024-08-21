@@ -1,21 +1,13 @@
 "use client";
 
 import GoogleReviews from "../GoogleReviews";
-import HowWeHelp from "../HowWeHelp";
-import Advantages from "../Advantages";
-import HowItWorks from "../HowItWorks";
 import ButtonHero from "../Buttons/buttonhero";
-import ButtonFloat from "../Buttons/buttonfloat";
 import Image from "next/image";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "./youtubelite.css";
-import AboutJamile from "../AboutJamile";
-import GoogleBusiness from "../GoogleBusiness";
-import Faq from "../Faq";
-import Footer from "../Footer";
 import LogoJam from '../../../../../public/assets/jamilelogo1.svg'
 
-export default function HeroVideo() {
+export function HeroVideo() {
   return (
     <section className="bg-gradient-to-b from-brandBase1-100 to-brandBase2-200">
       <div className="overflow-hidden mx-auto max-w-7xl sm:grid sm:grid-cols-2 sm:items-center">
@@ -60,14 +52,6 @@ export default function HeroVideo() {
           />
         </div>
       </div>
-      <HowWeHelp />
-      <Advantages />
-      <HowItWorks />
-      <AboutJamile />
-      <GoogleBusiness />
-      <Faq />
-      <ButtonFloat />
-      <Footer />
     </section>
   );
 }

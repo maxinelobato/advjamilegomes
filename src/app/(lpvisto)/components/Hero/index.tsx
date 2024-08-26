@@ -1,15 +1,18 @@
-"use client";
+// "use client";
 
-import Image from "next/image";
-import jamile from "/public/assets/bgjamile1.webp";
-import jamilelogo from "../../../../../public/assets/jamilelogo2.svg";
-import ButtonHero from "../Buttons/buttonhero";
-import GoogleReviews from "../GoogleReviews";
+import { HeroPage } from "./HeroPage";
+
+// import Image from "next/image";
+// import jamile from "/public/assets/bgjamile1.webp";
+// import jamilelogo from "../../../../../public/assets/jamilelogo2.svg";
+// import ButtonHero from "../Buttons/buttonhero";
+// import GoogleReviews from "../GoogleReviews";
 
 export default function Hero() {
   return (
     <>
-      <div className="relative flex flex-col-reverse py-10 lg:pt-0 lg:flex-col lg:pb-0">
+      <HeroPage />
+      {/* <div className="relative flex flex-col-reverse py-10 lg:pt-0 lg:flex-col lg:pb-0">
         <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
           <svg
             className="absolute left-0 hidden h-full text-brandRose-200 transform -translate-x-1/2 lg:block"
@@ -55,7 +58,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

@@ -14,40 +14,16 @@ import client2 from "/public/assets/client2.jpeg";
 import client3 from "/public/assets/client3.jpeg";
 import client4 from "/public/assets/client4.jpeg";
 import client5 from "/public/assets/client5.jpeg";
-// import Script from "next/script";
-
-// import dynamic from 'next/dynamic'
-
-// const DynamicGoogleElfsightWidget = dynamic(() => import('../GoogleElfsightWidget'), {
-//   ssr: false,
-// })
-
-// import { ElfsightWidget } from "react-elfsight-widget";
 
 export default function GoogleBusiness() {
   return (
     <>
-      {/* <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
         <div className="mx-auto max-w-screen-xl">
           <div className="mx-auto max-w-3xl text-center">
-            <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
+            <h1 className="font-sans text-3xl font-medium uppercase tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
               O que os clientes falam {""}
-              <span className="font-black font-sans text-transparent bg-clip-text bg-brandSecondary">
-                sobre a Dra. Jamile Gomes
-              </span>
-            </h1>
-          </div>
-        </div>
-        <div className="mx-auto max-w-6xl px-4 pt-8 sm:px-6">
-          <DynamicGoogleElfsightWidget />
-        </div>
-      </div> */}
-      <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
-        <div className="mx-auto max-w-screen-xl">
-          <div className="mx-auto max-w-3xl text-center">
-            <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
-              O que os clientes falam {""}
-              <span className="font-black font-sans text-transparent bg-clip-text bg-brandSecondary">
+              <span className="bg-brandSecondary bg-clip-text font-sans font-black text-transparent">
                 sobre a Dra. Jamile Gomes
               </span>
             </h1>
@@ -59,7 +35,7 @@ export default function GoogleBusiness() {
               width={300}
               height={300}
               rel="preload"
-              className="w-28 h-28 drop-shadow-lg"
+              className="h-28 w-28 drop-shadow-lg"
             />
           </div>
         </div>

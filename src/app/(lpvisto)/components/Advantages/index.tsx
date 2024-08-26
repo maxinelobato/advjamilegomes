@@ -81,26 +81,26 @@ export default function Advantages() {
 
   return (
     <>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="mx-auto px-4 py-16 sm:max-w-6xl md:max-w-6xl md:px-24 lg:max-w-6xl lg:px-8 lg:py-20">
         <div className="grid gap-10 lg:grid-cols-2">
-          <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
-            <div className="max-w-xl mb-6">
-              <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
+          <div className="flex flex-col justify-center md:pr-8 lg:max-w-lg xl:pr-0">
+            <div className="mb-6 max-w-xl">
+              <h1 className="font-sans text-3xl font-medium uppercase tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
                 Você sabe as Vantagens de ser um {""}
-                <span className="font-black font-sans text-transparent bg-clip-text bg-brandSecondary">
+                <span className="bg-brandSecondary bg-clip-text font-sans font-black text-transparent">
                   Cidadão Português?
                 </span>
               </h1>
             </div>
-            <div className="pt-2 max-w-lg lg:max-w-none">
+            <div className="max-w-lg pt-2 lg:max-w-none">
               <ul className="space-y-4">
                 {features.map((item, idx) => (
                   <li key={idx} className="flex gap-x-4">
-                    <div className="flex-none w-7 h-7 text-brandSecondary rounded-lg flex justify-center items-center">
+                    <div className="flex h-7 w-7 flex-none items-center justify-center rounded-lg text-brandSecondary">
                       {item.icon}
                     </div>
                     <div>
-                      <h1 className="text-sm text-brandRed-900 font-semibold">
+                      <h1 className="text-sm font-semibold text-brandRed-900">
                         {item.title}
                       </h1>
                     </div>
@@ -109,12 +109,12 @@ export default function Advantages() {
               </ul>
             </div>
           </div>
-          <div className="flex items-center justify-center -mx-4 lg:pl-8">
+          <div className="-mx-4 flex items-center justify-center lg:pl-8">
             <div className="flex flex-col items-end px-3">
               <Image
                 src={bg1}
                 alt="Image 1"
-                className="object-cover mb-6 rounded-lg shadow-lg shadow-black/50 h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
+                className="mb-6 h-28 w-28 rounded-lg object-cover shadow-lg shadow-black/50 sm:h-48 sm:w-48 xl:h-56 xl:w-56"
                 width={300}
                 height={300}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -123,7 +123,7 @@ export default function Advantages() {
               <Image
                 src={bg2}
                 alt="Image 2"
-                className="object-cover w-20 h-20 rounded-lg shadow-lg shadow-black/50 sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+                className="h-20 w-20 rounded-lg object-cover shadow-lg shadow-black/50 sm:h-32 sm:w-32 xl:h-40 xl:w-40"
                 width={300}
                 height={300}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -134,7 +134,7 @@ export default function Advantages() {
               <Image
                 src={bg3}
                 alt="Image 3"
-                className="object-cover w-40 h-40 rounded-lg shadow-lg shadow-black/50 sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+                className="h-40 w-40 rounded-lg object-cover shadow-lg shadow-black/50 sm:h-64 sm:w-64 xl:h-80 xl:w-80"
                 width={300}
                 height={300}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

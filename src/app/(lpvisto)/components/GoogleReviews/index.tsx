@@ -1,9 +1,9 @@
 export default function GoogleReviews() {
   return (
     <>
-      <div className="flex items-center justify-center sm:justify-start gap-x-2 pt-2">
+      <div className="flex items-center justify-start gap-x-2 pt-2">
         <div className="flex justify-center sm:justify-start">
-          <h1 className="text-black text-xs font-semibold mr-2 my-1">5.0</h1>
+          <h1 className="my-1 mr-2 text-xs font-semibold text-black">5.0</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -61,7 +61,7 @@ export default function GoogleReviews() {
           </svg>
         </div>
         <div>
-          <h2 className="text-xs text-black font-semibold">
+          <h2 className="text-xs font-semibold text-black">
             5 avaliações no Google
           </h2>
         </div>

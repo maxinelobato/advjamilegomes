@@ -1,21 +1,19 @@
-import ButtonHowItWorks from "../Buttons/buttonhowitworks";
-
 export default function HowItWorks() {
   return (
     <>
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
-        <div className="backdrop-blur-sm bg-gradient-to-r from-brandSecondary to-brandAccent p-8 rounded-lg shadow-lg sm:p-16">
+      <div className="mx-auto px-4 py-16 sm:max-w-6xl md:max-w-6xl md:px-24 lg:max-w-6xl lg:px-8 lg:py-10">
+        <div className="rounded-lg bg-gradient-to-r from-brandSecondary to-brandAccent p-8 shadow-lg backdrop-blur-sm sm:p-16">
           <div className="flex flex-col lg:flex-row">
             <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-              <h1 className="uppercase font-sans font-medium text-3xl tracking-wide text-brandRose-200 sm:text-4xl sm:leading-none">
+              <h1 className="font-sans text-3xl font-medium uppercase tracking-wide text-brandRose-200 sm:text-4xl sm:leading-none">
                 Exigências necessárias da {""}
-                <span className="font-black font-sans text-transparent bg-clip-text bg-brandRose-200">
+                <span className="bg-brandRose-200 bg-clip-text font-sans font-black text-transparent">
                   conservatória para sua cidadania
                 </span>
               </h1>
             </div>
             <div className="lg:w-1/2">
-              <p className="text-right mb-4 text-sm text-brandRose-200">
+              <p className="mb-4 text-right text-sm text-brandRose-200">
                 Você receberá orientação quanto aos documentos necessários, após
                 o envio destes, nós analisaremos se estão de acordo com as
                 exigências da Conservatória, se estiverem de acordo,
@@ -23,8 +21,8 @@ export default function HowItWorks() {
                 pedido de nacionalidade, bem como o acompanhamento do processo
                 até o final.
               </p>
-              <div className="pt-4 flex justify-end">
-                <ButtonHowItWorks />
+              <div className="flex justify-end pt-4">
+                {/* <ButtonHowItWorks /> */}
               </div>
             </div>
           </div>

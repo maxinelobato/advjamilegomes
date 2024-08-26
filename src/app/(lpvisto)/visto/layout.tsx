@@ -2,13 +2,13 @@ import "./globals.css";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
 
-const GTM_ID = 'GTM-NPND4R85'
+const GTM_ID = "GTM-NPND4R85";
 
 const montserrat = Montserrat({
-  subsets: ['latin'],
-  display: 'swap',
+  subsets: ["latin"],
+  display: "swap",
   preload: true,
-})
+});
 
 export const metadata = {
   title:
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-       <Script id="google-tag-manager" strategy="afterInteractive">
+      <Script id="google-tag-manager" strategy="afterInteractive">
         {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -33,14 +33,16 @@ export default function RootLayout({
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
       </Script>
-      <body className={`${montserrat.className} scroll-smooth antialiased bg-brandRose-200`}>
-      <noscript
+      <body
+        className={`${montserrat.className} scroll-smooth bg-brandBase1-100 antialiased`}
+      >
+        <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
           }}
         />
         {children}
-        </body>
+      </body>
     </html>
   );
 }

@@ -4,6 +4,38 @@ export interface ButtonCta {
   className: string;
 }
 
+type ButtonServicesProps = ComponentProps<"a">;
+
+export function ButtonServices(props: ButtonServicesProps) {
+  return (
+    <div className="z-50 my-4 flex w-full justify-center sm:justify-center">
+      <a
+        target="_blank"
+        aria-label="Clique no botão"
+        className="delay-0 inline-flex h-10 w-auto items-center justify-center px-6 font-medium text-brandPrimary duration-75 ease-in-out hover:scale-105 sm:h-10"
+        {...props}
+      />
+    </div>
+  );
+}
+
+type ButtonServicesFlexProps = ComponentProps<"div">;
+
+export function ButtonServicesFlex(props: ButtonServicesFlexProps) {
+  return <div className="z-50 ml-2 flex items-center" {...props} />;
+}
+
+type ButtonServicesTextProps = ComponentProps<"div">;
+
+export function ButtonServicesText(props: ButtonServicesTextProps) {
+  return (
+    <div
+      className="z-50 text-center font-bold uppercase text-brandPrimary sm:text-left sm:text-xs"
+      {...props}
+    />
+  );
+}
+
 type ButtonHomeProps = ComponentProps<"a">;
 
 export function ButtonHome(props: ButtonHomeProps) {

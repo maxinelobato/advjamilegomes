@@ -223,7 +223,7 @@ type HeroPropertyProps = ComponentProps<"div">;
 export function HeroProperty(props: HeroPropertyProps) {
   return (
     <div className="z-50 mt-48 pt-8 sm:my-28 sm:py-16">
-      <div className="mx-auto max-w-screen-xl justify-between gap-x-12 px-4 md:flex md:px-8">
+      <div className="mx-auto max-w-6xl justify-between gap-x-6 px-4 md:flex">
         <div className="max-w-xl space-y-4" {...props} />
       </div>
     </div>
@@ -251,7 +251,7 @@ type HeroCardH1Props = ComponentProps<"h1">;
 export function HeroCardH1(props: HeroCardH1Props) {
   return (
     <h1
-      className="mt-4 pb-4 text-2xl font-extrabold uppercase text-brandSecondary drop-shadow-lg md:text-4xl"
+      className="mt-4 pb-4 text-2xl font-semibold uppercase text-brandSecondary md:text-4xl"
       {...props}
     />
   );

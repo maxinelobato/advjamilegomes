@@ -16,6 +16,7 @@ import {
   ButtonServicesFlex,
   ButtonServicesText,
 } from "../Buttons/ButtonCta";
+import Link from "next/link";
 
 export default function HowWeHelp() {
   const features = [
@@ -107,26 +108,34 @@ export default function HowWeHelp() {
             {features.map((item, idx) => (
               <li
                 key={idx}
-                className="space-y-3 rounded-lg p-4 shadow-inner shadow-black/40 hover:border-l-4 hover:border-brandSecondary hover:bg-gradient-to-l hover:from-brandBase3-300/40 hover:to-transparent hover:shadow-brandSecondary hover:transition-shadow"
+                className="group space-y-3 rounded-lg p-4 shadow-inner shadow-black/40 hover:border-l-4 hover:border-brandAccent hover:bg-gradient-to-l hover:from-brandAccent/40 hover:to-transparent hover:shadow-brandAccent hover:transition-shadow"
               >
-                <div className="flex items-center justify-center">
-                  <div className="pb-1 text-brandSecondary">{item.icon}</div>
-                </div>
-                <h1 className="text-center text-lg font-bold text-brandSecondary">
-                  {item.title}
-                </h1>
-                <p className="text-center text-sm text-brandSecondary">
-                  {item.desc}
-                </p>
-                <ButtonServices href="https://api.whatsapp.com/send?phone=351933965256&text=Ol%C3%A1%2C%20Dra.%20Jamile!%20Vim%20pelo%20site%20e%20Preciso%20de%20Ajuda%20com%20a%20minha%20Cidadania/Nacionalidade.%20Podemos%20conversar%3F%20">
-                  <ButtonServicesText>saiba mais</ButtonServicesText>
-                  <ButtonServicesFlex>
-                    <ArrowCircleUpRight
-                      className="h-5 w-5 sm:h-5 sm:w-5"
-                      weight="fill"
-                    />
-                  </ButtonServicesFlex>
-                </ButtonServices>
+                <Link
+                  passHref
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=351933965256&text=Olá%20Dra.%20Jamile,%20vim%20pelo%20site%20e%20preciso%20de%20ajuda%20com%20o%20meu%20Visto.%20Podemos%20conversar%3F%20"
+                >
+                  <div className="flex items-center justify-center">
+                    <div className="pb-1 text-brandSecondary group-hover:text-brandAccent">
+                      {item.icon}
+                    </div>
+                  </div>
+                  <h1 className="text-center text-lg font-bold text-brandSecondary group-hover:text-brandAccent">
+                    {item.title}
+                  </h1>
+                  <p className="text-center text-sm text-brandSecondary group-hover:text-brandAccent">
+                    {item.desc}
+                  </p>
+                  <ButtonServices>
+                    <ButtonServicesText>saiba mais</ButtonServicesText>
+                    <ButtonServicesFlex>
+                      <ArrowCircleUpRight
+                        className="h-5 w-5 sm:h-5 sm:w-5"
+                        weight="fill"
+                      />
+                    </ButtonServicesFlex>
+                  </ButtonServices>
+                </Link>
               </li>
             ))}
           </ul>

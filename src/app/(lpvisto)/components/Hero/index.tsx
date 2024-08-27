@@ -71,7 +71,7 @@ export function Hero() {
                 estudar em Portugal
               </HeroCardP1>
             </HeroCardText>
-            <ButtonHome href="https://api.whatsapp.com/send?phone=351933965256&text=Ol%C3%A1%2C%20Dra.%20Jamile!%20Vim%20pelo%20site%20e%20Preciso%20de%20Ajuda%20com%20a%20minha%20Cidadania/Nacionalidade.%20Podemos%20conversar%3F%20">
+            <ButtonHome href="https://api.whatsapp.com/send?phone=351933965256&text=Olá%20Dra.%20Jamile,%20vim%20pelo%20site%20e%20preciso%20de%20ajuda%20com%20o%20meu%20Visto.%20Podemos%20conversar%3F%20">
               <ButtonHomeText>eu posso te ajudar</ButtonHomeText>
               <ButtonHomeFlex>
                 <WhatsappLogo className="h-5 w-5 sm:h-6 sm:w-6" weight="fill" />

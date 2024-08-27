@@ -108,7 +108,7 @@ export default function HowWeHelp() {
             {features.map((item, idx) => (
               <li
                 key={idx}
-                className="group space-y-3 rounded-lg p-4 shadow-inner shadow-black/40 hover:border-l-4 hover:border-brandAccent hover:bg-gradient-to-l hover:from-brandAccent/40 hover:to-transparent hover:shadow-brandAccent hover:transition-shadow"
+                className="shadow-l-lg group space-y-3 rounded-lg p-4 shadow-brandSecondary/20 hover:scale-100 hover:border-l-4 hover:border-brandAccent hover:bg-gradient-to-l hover:from-brandAccent/40 hover:to-transparent hover:shadow-brandAccent hover:transition-shadow"
               >
                 <Link
                   passHref

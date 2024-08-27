@@ -222,7 +222,7 @@ type HeroPropertyProps = ComponentProps<"div">;
 
 export function HeroProperty(props: HeroPropertyProps) {
   return (
-    <div className="z-50 mt-48 pt-8 sm:my-28 sm:py-16">
+    <div className="z-50 mt-48 pt-8 sm:my-20 sm:py-0">
       <div className="mx-auto max-w-6xl justify-between gap-x-6 px-4 md:flex">
         <div className="max-w-xl space-y-4" {...props} />
       </div>

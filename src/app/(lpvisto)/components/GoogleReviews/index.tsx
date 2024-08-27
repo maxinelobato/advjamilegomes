@@ -62,7 +62,7 @@ export default function GoogleReviews() {
         </div>
         <div>
           <h2 className="text-xs font-semibold text-black">
-            5 avaliações no Google
+            22 avaliações no Google
           </h2>
         </div>
       </div>

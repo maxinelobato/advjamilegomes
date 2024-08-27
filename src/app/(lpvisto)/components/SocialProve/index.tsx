@@ -5,91 +5,138 @@ export function SocialProve() {
   const features = [
     {
       imgURL:
-        "https://lh3.googleusercontent.com/a-/ALV-UjUP1fK68fKh4EWJD4dZAm_DzJiYOLyTNgoGSROpR2URGhchsgWp=w45-h45-p-rp-mo-br100",
-      clientName: "Ramiria Carvalho",
+        "https://lh3.googleusercontent.com/a-/ALV-UjUCFRGenn_ryAiKmIQzC6QIpfW5uCXyaMQGxRCHrwv9qJ0Q5Vg=w75-h75-p-rp-mo-br100",
+      clientName: "Karine Dias",
       clientProve:
-        "A Dra. Lívia é uma excelente profissional, advogada muito capaz, dedicada, simpática, atenciosa e principalmente com o diferencial do olhar humano, o que acredito que possibilita entender melhor as necessidades em cada caso. E foi o que chamou mais a minha atenção, o fato de que até mesmo os clientes com maior simplicidade e de pouco estudo se sentirem muito à vontade e serem sempre muito bem recebidos e tratados por ela e por toda a sua equipe, algo que minha mãe faz questão de sempre destacar, desde o primeiro contato com a Dra. Lívia. Estamos muito satisfeitos e só temos a agradecer por todo o seu profissionalismo e dedicação. Graças à Deus e aos esforços da Dra. Lívia, minha mãe agora pôde receber o seu benefício.",
+        "A Dra. Jamile é uma excelente profissional. Agradeço por todo o suporte maravilhoso que ela me deu! Meu visto foi rapidamente aprovado, e me senti totalmente grata por ter tomado a decisão de não solicitá-lo sozinha, mas sim com a ajuda da Dra. Jamile! Podem confiar sem medo!",
     },
     {
       imgURL:
-        "https://lh3.googleusercontent.com/a/ACg8ocKdQCxd530uvm_CSJhy4Qqf96o__AqPaGMdK-u5Hcv_ZdkVKQ=w45-h45-p-rp-mo-br100",
-      clientName: "Leonice Soares Ferreira",
+        "https://lh3.googleusercontent.com/a/ACg8ocLt7v8tCDGYVosa16pnJiKwkB6f0LmCpUCdgck8cjGCv6zWSA=w75-h75-p-rp-mo-br100",
+      clientName: "Augusto Aupero",
       clientProve:
-        "Tive o prazer de conhecer o Dr.livia e ver de perto como ela trata seus clientes com muita atenção e faz de tudo pra que eles se sintam a vontade para se dirigir a ela.Minha mãe como cliente dela sempre foi muito bem recebida por ela e pela secretaria a Larissa que também nao posso deixar de mencionar a sua educação e bom humor com todos .A Dr.livia além de muito competente é um exemplo de simplicidade e educação e nessa profissão de advogado é muito importante tendo em vista que vai atender varios tipos de pessoas grande parte delas pessoas muito simples.Só tenho que agradecer em meu nome e no nome da minha mãe que foi a cliente ,e dizer que super indico o trabalho da Dr.livia uma grande profissional.",
+        "Dra Jamile Gomes , excelente ser humano e profissional,fez um trabalho implacável,desde a orientação sobre quais documentos precisaria pra tirar o visto até a imigração.",
     },
     {
       imgURL:
-        "https://lh3.googleusercontent.com/a/ACg8ocIRf-9Gfu2rWzbtYdZKC7-VIPjV-NBQRi7MRU1mzkVgnwjHjQ=w45-h45-p-rp-mo-br100",
-      clientName: "Veneci Ferreira",
+        "https://lh3.googleusercontent.com/a-/ALV-UjVBf9C2YOwEYC-CTqVq6O4FJbNhLtmYItcG5_TlhRjPYMqLy_Ocxw=w75-h75-p-rp-mo-ba3-br100",
+      clientName: "Matheus Mesquita",
       clientProve:
-        "So tenho agradecer a Doutora, graças a Deud estou aposentada. Depois de muito tentar coliquei na mão dela e meu benefício saiu . Sempre muito atenciosa comigo, so deus sabe o tamanho da minha gratidão.😍",
+        "Foi uma ótima consulta, com muito profissionalismo e empenho em apresentar soluções. Indico a todos o trabalho da Dr. Jamile, pois ela cumpre com excelência o seu trabalho.",
     },
     {
       imgURL:
-        "https://lh3.googleusercontent.com/a/ACg8ocL2KKMOu-kV_jlzEMSruir1bAbVJiUkyfPaBSUeU4ZuC86xVw=w45-h45-p-rp-mo-br100",
-      clientName: "Edna Ohana",
+        "https://lh3.googleusercontent.com/a-/ALV-UjUzoxEKNnfAp2vmrcqJGseEkLOIh3phGoY5PVtBCFZyZGxlU4Ez=w75-h75-p-rp-mo-br100",
+      clientName: "Valessa Martins",
       clientProve:
-        "Fiquei muito satisfeita com o trabalho da Dra Lívia, me atendeu com muita simpatia, me tirou todas as dúvidas , e resolveu tudo com bastante rapidez. Estou aposentada. Reconendo!",
+        "Profissional super atenciosa, precisei renovar meu passaporte e ela tratou de tudo, recomendo.",
     },
     {
       imgURL:
-        "https://lh3.googleusercontent.com/a/ACg8ocJFnyMRLNXjH71D9e5hkztkABGr_hTIJKm67TLQVebwGwIELg=w45-h45-p-rp-mo-ba3-br100",
-      clientName: "Alaide Gomes",
+        "https://lh3.googleusercontent.com/a-/ALV-UjVdFgd7Ixu8UWcFq8Jp30HNA7YLN7TBRlvEIeZDUB19NY-p_Aq6LQ=w75-h75-p-rp-mo-br100",
+      clientName: "Zito Mendes",
       clientProve:
-        "Dra. Lívia muito simpática, proativa e uma profissional muito dedicada aos seus clientes",
+        "Recomendo os serviços da Dra.Jamile, muito profissionalismo,em pouco tempo tive resultado dos pedidos feito, muito atenciosa e simpática ótima profissional 😊",
     },
     {
       imgURL:
-        "https://lh3.googleusercontent.com/a/ACg8ocKy22bSKQEqUge32THllKR34wz6tH9GMJTzpd3S-7hGOmnROQ=w45-h45-p-rp-mo-br100",
-      clientName: "Aline H.S.",
+        "https://lh3.googleusercontent.com/a/ACg8ocIOyB9Lyq_Qe-3pLXnzEZz4idvLj7jQS62c-sN1gZUiEzW-mw=w75-h75-p-rp-mo-br100",
+      clientName: "Thiago Machado",
       clientProve:
-        "Dra. Lívia resolveu com muita eficiência o problema de aposentadoria da minha mãe. Só tenho a agradecer pelos excelentes serviços prestados!",
+        "Profissional excelente. Não conseguiria ter sucesso com o meu processo se não fosse pelo seu suporte. Me ajudou desde o primeiro dia, me aconselhou quanto aos melhores caminhos que deveria seguir em relação a cada documento, respondeu minhas mensagens e minhas dúvidas com toda atenção e esteve comigo até eu ter meu visto em mãos. Recomendo totalmente.",
     },
     {
       imgURL:
-        "https://lh3.googleusercontent.com/a/ACg8ocK6G6IwCOvxkBzsNoiMB1sPgAW073E5xeKTd40ZaUpWyLoKmw=w45-h45-p-rp-mo-br100",
-      clientName: "Rosana Santos",
+        "https://lh3.googleusercontent.com/a/ACg8ocKa39_5ZiBdKkRRvQHMD02cr76WzNxjqLxJZRDAr7gWUI78aw=w75-h75-p-rp-mo-br100",
+      clientName: "Luciano Reis da Silva",
       clientProve:
-        "Recebi um excelente atendimento da Dra. Lívia. Muito clara em suas palavras o que me deixou à vontade em explanar todas minhas dúvidas. Indico demais essa profissional.",
+        "No meu caso, Jamile Gomes foi excelente! me auxiliando na busca dos documentos com 1 mês já deu entrada na minha cidadania. ( obs: eu não tinha nenhum documento tive que pedir no Brasil)",
     },
     {
       imgURL:
-        "https://lh3.googleusercontent.com/a/ACg8ocITdmn5dS0OsyGWsVkRkNV9Pqb-kMNClti5pqNImiRGCl2z6w=w45-h45-p-rp-mo-br100",
-      clientName: "Ricardo Leite",
+        "https://lh3.googleusercontent.com/a-/ALV-UjVtElt4_tgn7pSfnNK0zmmxhV7XIcO-kxc8FuuykP1E-TIiwu0=w75-h75-p-rp-mo-br100",
+      clientName: "Cristiane Retamero",
       clientProve:
-        " A doutora Lívia é uma profissional que trata diretamente com você, uma empatia enorme, buscando sempre a melhor forma de atender a nossa demanda. Muito segura, demonstra alto conhecimento técnico, te explica com clareza toda a parte técnica, verdadeira sem criar expectativas e sempre com o propósito em ajudar e trazer resultados positivos a quem a procura. Recomendo a todos. Obrigado doutora Lívia pelo excelente trabalho realizado e por trazer mais alegria e esperança em dias melhores. Um forte abraço. Ricardo, Lucas e Gabriela.",
+        "Atendimento 5 estrelas. Super atenciosa e me ajudou com todos os documentos. Recomendo 100%. Obrigada Dra. Jamile!",
     },
     {
       imgURL:
-        "https://lh3.googleusercontent.com/a-/ALV-UjXiQk9iWn7qRbAZLXkth6AImi8k1TcFmrROxfhJ4kbc2CnglZr8ww=w45-h45-p-rp-mo-br100",
-      clientName: "Sergio Faleiro",
+        "https://lh3.googleusercontent.com/a-/ALV-UjWRZuDhFKiEeVeZAQl1uVgr4_j2DJXIUJVyMnyBJtiaeekOcTKL=w75-h75-p-rp-mo-br100",
+      clientName: "Tassia Mota",
       clientProve:
-        "Muito satisfeito com o serviço solicitado. Dra. Lívia Oliveira foi muito prestativa e eficiente. Meus objetivos foram alcançados com a segurança que precisava. Obrigado",
+        "Sou grata por ter te encontrado, sem você meu processo de imigração não seria tão rápido. Obrigada por tudo 🙏🏼",
+    },
+    {
+      imgURL:
+        "https://lh3.googleusercontent.com/a-/ALV-UjUGenaZiAXUfKqJLy_gCtT1NzbDCtO0DbSoLvwd1mfye2RQCK_E=w75-h75-p-rp-mo-br100",
+      clientName: "Dhiego Violino",
+      clientProve:
+        "Atendimento super rápido, prático e eficaz. Recomendo vivamente. Obrigado uma vez mais Dr. Jamile",
+    },
+    {
+      imgURL:
+        "https://lh3.googleusercontent.com/a-/ALV-UjWPsy-yLj4tJlx0D7pTGtquxcMRqQtBkSCmpXyU9N81UHF5jMYQ8g=w75-h75-p-rp-mo-br100",
+      clientName: "Joao Lopes",
+      clientProve:
+        "Fiquei muito satisfeito com o excelente atendimento e a eficiência do serviço prestado pela advogada Jamile . O serviço superou minhas expectativas, a eficiência e a comunicação clara facilitaram todo o processo, tornando-o sem complicações. Super recomendo.",
+    },
+    {
+      imgURL:
+        "https://lh3.googleusercontent.com/a/ACg8ocLsffSXlsJNJl9MmVJmHT73Vbc9AsP33sYxzwqByB8l8ZiToF0=w75-h75-p-rp-mo-br100",
+      clientName: "Angelica Silva",
+      clientProve:
+        "Trabalho impecável, profissionalismo e dedicação, vale cada centavo pago, as melhores recomendações de minha parte, rapidez e segurança a cada passo do processo. Recomendo muito.Dra Jamile Gomes faz exatamente o que promete com atenção e cuidado do cliente.",
+    },
+    {
+      imgURL:
+        "https://lh3.googleusercontent.com/a-/ALV-UjV0bYIw7dXmlN3C8N4LpbbCNIXTz621Cdv1RvFRWyeSF16RVNlxJw=w75-h75-p-rp-mo-br100",
+      clientName: "Math Moraiis",
+      clientProve: "Trabalho excepcional, com foco na necessidade do cliente!",
+    },
+    {
+      imgURL:
+        "https://lh3.googleusercontent.com/a/ACg8ocJpkEZca8QipCsj7V3QN2irLYCxGpyi_MDy5CJHcIsOxKvlwg=w75-h75-p-rp-mo-br100",
+      clientName: "Modachic Vestirbem",
+      clientProve:
+        "Excelente atendimento e eficácia rapidez recomendo. Obrigada por me passar confiança e segurança.",
+    },
+    {
+      imgURL:
+        "https://lh3.googleusercontent.com/a-/ALV-UjVYVf7Rr0DGGINnyZcz4C2xchUSIAPHZETDAyfLRjzn5GoYI9zp=w75-h75-p-rp-mo-br100",
+      clientName: "Moreira Gezisclan",
+      clientProve: "Ótima  profissional  obrigada  pela  atenção",
+    },
+    {
+      imgURL:
+        "https://lh3.googleusercontent.com/a/ACg8ocJGpBarvOuAKCHVM4ElkPg0L5ROtiTU68FL1Tb4eIIqGcJDJg=w75-h75-p-rp-mo-br100",
+      clientName: "Daniel Retamero",
+      clientProve:
+        "Melhor advogada Disparadaaaa.. Muito eficiente, atenciosa, rápida e muito mais..",
     },
   ];
 
   return (
     <>
-      <section className="bg-gradient-to-br from-transparent to-brandAccent/60 shadow-inner shadow-brandAccent">
-        <div className="mx-auto max-w-6xl px-4 py-12 lg:py-16">
+      <section className="shadow-l-xl bg-gradient-to-br from-transparent to-brandAccent/30 shadow-brandSecondary/20">
+        <div className="mx-auto max-w-6xl px-9 py-12 lg:py-16">
           <div className="mx-auto text-center">
             <div className="mx-auto max-w-4xl space-y-5 px-4 py-8 text-center">
               <h1 className="text-3xl font-medium uppercase tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
-                Especialidades Jurídicas em {""}
+                Histórias de Clientes que{" "}
                 <span className="bg-brandPrimary bg-clip-text font-black text-transparent">
-                  Vistos para Portugal
+                  Conquistaram Portugal
                 </span>
               </h1>
               <p className="font-medium text-brandPrimary">
-                Oferecemos suporte completo em processos de autorização de
-                residência e vistos
+                Conheça algumas das famílias e profissionais que ajudamos a
+                iniciar suas jornadas em Portugal
               </p>
             </div>
           </div>
           <div className="mt-8 max-w-6xl [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
             {features.map((item, idx) => (
               <div className="mb-8 sm:break-inside-avoid" key={idx}>
-                <blockquote className="rounded-lg bg-gradient-to-l from-brandAccent/40 to-transparent p-6 shadow-inner shadow-brandAccent transition-shadow sm:p-8">
+                <blockquote className="shadow-l-lg rounded-lg bg-brandBase1-100/40 p-6 shadow-brandSecondary/20 sm:p-8">
                   <div className="flex items-center gap-4">
                     <Image
                       width={45}
@@ -107,12 +154,12 @@ export function SocialProve() {
                         <Star weight="fill" size={20} />
                         <Star weight="fill" size={20} />
                       </div>
-                      <p className="mt-0.5 text-lg font-medium text-gray-900">
+                      <p className="mt-0.5 text-lg font-medium text-brandSecondary">
                         {item.clientName}
                       </p>
                     </div>
                   </div>
-                  <p className="mt-4 font-medium text-brandPrimary">
+                  <p className="mt-4 font-medium text-brandSecondary">
                     {item.clientProve}
                   </p>
                 </blockquote>

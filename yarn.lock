@@ -2325,6 +2325,11 @@ swiper@^11.0.5:
   resolved "https://registry.npmjs.org/swiper/-/swiper-11.0.5.tgz"
   integrity sha512-rhCwupqSyRnWrtNzWzemnBLMoyYuoDgGgspAm/8iBD3jCvAWycPLH4Z3TB0O5520DHLzMx94yUMH/B9Efpa48w==
 
+tailwindcss-directional-shadows@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/tailwindcss-directional-shadows/-/tailwindcss-directional-shadows-0.1.13.tgz#5c1c45aeabec80f8ec0aec4401e7f509b5cd20ed"
+  integrity sha512-ULDfCk/YujfrJ/RL3mHd5IhcZV9WtvBE3dp2FuYvRJtEAd9B/HlcCHGfYdxx2DjTuClwuD2Os76npgDet02gQw==
+
 tailwindcss@^3, tailwindcss@^3.2.0:
   version "3.2.0"
   resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.2.0.tgz"

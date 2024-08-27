@@ -27,8 +27,8 @@ export function Hero() {
         <Image
           src={imgDesktop}
           alt="BgImage"
-          sizes="100%"
-          placeholder="empty"
+          sizes="100vh"
+          unoptimized
           priority
           fill
           className="h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover sm:bg-[imgDesktop]"
@@ -36,8 +36,8 @@ export function Hero() {
         <Image
           src={imgMobile}
           alt="BgImage"
-          sizes="100%"
-          placeholder="empty"
+          sizes="100vh"
+          unoptimized
           priority
           fill
           className="h-auto w-full bg-cover bg-fixed bg-center bg-no-repeat object-cover sm:hidden sm:bg-[imgMobile]"
@@ -63,9 +63,6 @@ export function Hero() {
                 </span>
               </HeroCardH1>
               <HeroCardP1>
-                {/* Visto para nômade digital, procura de trabalho, golden vida,
-                visto d5, visto d7, visto d3, visto d6, tech visa, startup visa,
-                visto d4, visto d2, visto d1 */}
                 Há 2 anos ajudando famílias, investidores, profissionais e
                 estudantes a conquistarem o direito de viver, trabalhar e
                 estudar em Portugal
@@ -77,7 +74,7 @@ export function Hero() {
                 <WhatsappLogo className="h-5 w-5 sm:h-6 sm:w-6" weight="fill" />
               </ButtonHomeFlex>
             </ButtonHome>
-            <div className="z-50 max-w-md text-left">
+            <div className="z-50 mx-auto items-center text-center sm:mx-0 sm:text-left">
               <GoogleReviews />
             </div>
           </HeroCard>

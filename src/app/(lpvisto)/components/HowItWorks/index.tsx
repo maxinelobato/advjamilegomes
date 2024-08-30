@@ -21,8 +21,8 @@ export function HowItWorks() {
             </div>
             <div className="lg:w-1/2">
               <p className="mb-4 text-right text-lg text-brandSecondary">
-                Esou pronta para ajudar você e sua família a se estabelecerem em
-                Portugal com segurança e tranquilidade
+                Estou pronta para ajudar você e sua família a se estabelecerem
+                em Portugal com segurança e tranquilidade
               </p>
               <div className="flex justify-end pt-4">
                 <div className="max-w-fit">

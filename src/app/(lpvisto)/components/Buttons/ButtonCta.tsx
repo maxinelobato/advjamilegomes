@@ -43,7 +43,7 @@ type ButtonHomeProps = ComponentProps<"a">;
 
 export function ButtonHome(props: ButtonHomeProps) {
   return (
-    <div className="z-50 my-4">
+    <div className="z-50 my-4 flex w-full justify-center sm:justify-start">
       <a
         target="_blank"
         aria-label="Clique no botão"

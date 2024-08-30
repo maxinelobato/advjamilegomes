@@ -1,4 +1,4 @@
-export default function HowItWorks() {
+export function HowItWorks() {
   return (
     <>
       <div className="mx-auto px-4 py-16 sm:max-w-6xl md:max-w-6xl md:px-24 lg:max-w-6xl lg:px-8 lg:py-10">

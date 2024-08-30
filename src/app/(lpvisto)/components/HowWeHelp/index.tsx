@@ -23,66 +23,66 @@ export default function HowWeHelp() {
     {
       icon: <Laptop weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "Visto para Nômade Digital",
-      desc: "Visto para Nômade Digital",
+      desc: "Estrangeiro que trabalha remotamente e com rendimentos de no mínimo 4 salários mínimos portugueses mensais",
     },
     {
       icon: <ReadCvLogo weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "Visto de Procura de Trabalho",
-      desc: "Visto de Procura de Trabalho",
+      desc: "Qualquer estrangeiro que tenha interesse de ir a Portugal para procurar trabalho",
     },
     {
       icon: <CreditCard weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "Golden Visa",
-      desc: "Golden Visa",
+      desc: "A diferença deste visto para os demais é o tempo de permanência, que nesse caso são 7 dias ao ano",
     },
     {
       icon: <Student weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "Visto D5 Estudo Europeu",
-      desc: "Visto D5 Estudo Europeu",
+      desc: "Para todos os cidadãos estrangeiros que queiram morar e estudar em Portugal",
     },
     {
       icon: <PiggyBank weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "Visto D7 Aposentados e Titulares de Rendimentos",
-      desc: "Visto D7 Aposentados e Titulares de Rendimentos",
+      desc: "Para aposentados e pessoas com rendimentos no Brasil comprovados por um período de no mínimo 1 ano em Portugal",
     },
     {
       icon: <Certificate weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "Visto D3 Trabalho Altamente Qualificado",
-      desc: "Visto D3 Trabalho Altamente Qualificado",
+      desc: "É destinado a profissionais estrangeiros que especifique a profissão para ser concedido",
     },
     {
       icon: <UsersFour weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "Visto D6 Reagrupamento Familiar",
-      desc: "Visto D6 Reagrupamento Familiar",
+      desc: "Para familiares de um portador de visto, ou seja, que tenha autorização de residência ou cidadão portugês também morem legalmente",
     },
     {
       icon: (
         <DesktopTower weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />
       ),
       title: "Tech Visa",
-      desc: "Tech Visa",
+      desc: "Para profissionais altamente qualificados de tecnologia da informação, engenheiro de software, programação, etc. Cadastrados também no Programa Tech Visa",
     },
     {
       icon: (
         <BuildingOffice weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />
       ),
       title: "Startup Visa",
-      desc: "Startup Visa",
+      desc: "Além de incentivar o empreendedorismo em Portugal, para quem já possui empresa há pelo menos 4 anos no Brasil e quer internacionalizar suas atividades",
     },
     {
       icon: <Student weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "Visto D4 Estudo",
-      desc: "Visto D4 Estudo",
+      desc: "Para entrangeiros com matrícula ou carta de aceitação de instituição de ensino em Portugal que querem ampliar horizontes e melhorar seu currículo. ",
     },
     {
       icon: <Briefcase weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "Visto D2 Empreendedor",
-      desc: "Visto D2 Empreendedor",
+      desc: "Para estrangeiros que pretendem realizar uma atividade de investimento como empreendedor em Portugal",
     },
     {
       icon: <ReadCvLogo weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "Visto D1 de Trabalho",
-      desc: "Visto D1 de Trabalho",
+      desc: "Estrangeiros com um contrato de trabalho de pelo menos 12 meses em qualquer empresa sediada em Portugal",
     },
   ];
 
@@ -108,7 +108,7 @@ export default function HowWeHelp() {
             {features.map((item, idx) => (
               <li
                 key={idx}
-                className="shadow-l-lg group space-y-3 rounded-lg p-4 shadow-brandSecondary/20 hover:scale-100 hover:border-l-4 hover:border-brandAccent hover:bg-gradient-to-l hover:from-brandAccent/40 hover:to-transparent hover:shadow-brandAccent hover:transition-shadow"
+                className="group space-y-3 rounded-lg p-4 shadow-brandSecondary/20 shadow-l-lg hover:scale-100 hover:border-l-4 hover:border-brandAccent hover:bg-gradient-to-l hover:from-brandAccent/40 hover:to-transparent hover:shadow-brandAccent hover:transition-shadow"
               >
                 <Link
                   passHref

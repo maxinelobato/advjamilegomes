@@ -1,5 +1,10 @@
-import { Star } from "@phosphor-icons/react/dist/ssr";
+import { Star, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
+import {
+  ButtonHome,
+  ButtonHomeFlex,
+  ButtonHomeText,
+} from "../Buttons/ButtonCta";
 
 export function SocialProve() {
   const features = [
@@ -87,37 +92,37 @@ export function SocialProve() {
       clientProve:
         "Trabalho impecável, profissionalismo e dedicação, vale cada centavo pago, as melhores recomendações de minha parte, rapidez e segurança a cada passo do processo. Recomendo muito.Dra Jamile Gomes faz exatamente o que promete com atenção e cuidado do cliente.",
     },
-    {
-      imgURL:
-        "https://lh3.googleusercontent.com/a-/ALV-UjV0bYIw7dXmlN3C8N4LpbbCNIXTz621Cdv1RvFRWyeSF16RVNlxJw=w75-h75-p-rp-mo-br100",
-      clientName: "Math Moraiis",
-      clientProve: "Trabalho excepcional, com foco na necessidade do cliente!",
-    },
-    {
-      imgURL:
-        "https://lh3.googleusercontent.com/a/ACg8ocJpkEZca8QipCsj7V3QN2irLYCxGpyi_MDy5CJHcIsOxKvlwg=w75-h75-p-rp-mo-br100",
-      clientName: "Modachic Vestirbem",
-      clientProve:
-        "Excelente atendimento e eficácia rapidez recomendo. Obrigada por me passar confiança e segurança.",
-    },
-    {
-      imgURL:
-        "https://lh3.googleusercontent.com/a-/ALV-UjVYVf7Rr0DGGINnyZcz4C2xchUSIAPHZETDAyfLRjzn5GoYI9zp=w75-h75-p-rp-mo-br100",
-      clientName: "Moreira Gezisclan",
-      clientProve: "Ótima  profissional  obrigada  pela  atenção",
-    },
-    {
-      imgURL:
-        "https://lh3.googleusercontent.com/a/ACg8ocJGpBarvOuAKCHVM4ElkPg0L5ROtiTU68FL1Tb4eIIqGcJDJg=w75-h75-p-rp-mo-br100",
-      clientName: "Daniel Retamero",
-      clientProve:
-        "Melhor advogada Disparadaaaa.. Muito eficiente, atenciosa, rápida e muito mais..",
-    },
+    // {
+    //   imgURL:
+    //     "https://lh3.googleusercontent.com/a-/ALV-UjV0bYIw7dXmlN3C8N4LpbbCNIXTz621Cdv1RvFRWyeSF16RVNlxJw=w75-h75-p-rp-mo-br100",
+    //   clientName: "Math Moraiis",
+    //   clientProve: "Trabalho excepcional, com foco na necessidade do cliente!",
+    // },
+    // {
+    //   imgURL:
+    //     "https://lh3.googleusercontent.com/a/ACg8ocJpkEZca8QipCsj7V3QN2irLYCxGpyi_MDy5CJHcIsOxKvlwg=w75-h75-p-rp-mo-br100",
+    //   clientName: "Modachic Vestirbem",
+    //   clientProve:
+    //     "Excelente atendimento e eficácia rapidez recomendo. Obrigada por me passar confiança e segurança.",
+    // },
+    // {
+    //   imgURL:
+    //     "https://lh3.googleusercontent.com/a-/ALV-UjVYVf7Rr0DGGINnyZcz4C2xchUSIAPHZETDAyfLRjzn5GoYI9zp=w75-h75-p-rp-mo-br100",
+    //   clientName: "Moreira Gezisclan",
+    //   clientProve: "Ótima  profissional  obrigada  pela  atenção",
+    // },
+    // {
+    //   imgURL:
+    //     "https://lh3.googleusercontent.com/a/ACg8ocJGpBarvOuAKCHVM4ElkPg0L5ROtiTU68FL1Tb4eIIqGcJDJg=w75-h75-p-rp-mo-br100",
+    //   clientName: "Daniel Retamero",
+    //   clientProve:
+    //     "Melhor advogada Disparadaaaa.. Muito eficiente, atenciosa, rápida e muito mais..",
+    // },
   ];
 
   return (
     <>
-      <section className="shadow-l-xl bg-gradient-to-br from-transparent to-brandAccent/30 shadow-brandSecondary/20">
+      <section className="bg-gradient-to-br from-transparent to-brandAccent/30 shadow-brandSecondary/20 shadow-l-xl">
         <div className="mx-auto max-w-6xl px-9 py-12 lg:py-16">
           <div className="mx-auto text-center">
             <div className="mx-auto max-w-4xl space-y-5 px-4 py-8 text-center">
@@ -136,7 +141,7 @@ export function SocialProve() {
           <div className="mt-8 max-w-6xl [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
             {features.map((item, idx) => (
               <div className="mb-8 sm:break-inside-avoid" key={idx}>
-                <blockquote className="shadow-l-lg rounded-lg bg-brandBase1-100/40 p-6 shadow-brandSecondary/20 sm:p-8">
+                <blockquote className="rounded-lg bg-brandBase1-100/40 p-6 shadow-brandSecondary/20 shadow-l-lg sm:p-8">
                   <div className="flex items-center gap-4">
                     <Image
                       width={45}
@@ -165,6 +170,16 @@ export function SocialProve() {
                 </blockquote>
               </div>
             ))}
+          </div>
+          <div className="mx-auto max-w-fit px-4 pt-4 text-center sm:pt-12">
+            <ButtonHome href="https://api.whatsapp.com/send?phone=351933965256&text=Olá%20Dra.%20Jamile,%20vim%20pelo%20site%20e%20preciso%20de%20ajuda%20com%20o%20meu%20Visto.%20Podemos%20conversar%3F%20">
+              <ButtonHomeText>
+                seja nosso próximo caso de sucesso
+              </ButtonHomeText>
+              <ButtonHomeFlex>
+                <WhatsappLogo className="h-5 w-5 sm:h-6 sm:w-6" weight="fill" />
+              </ButtonHomeFlex>
+            </ButtonHome>
           </div>
         </div>
       </section>

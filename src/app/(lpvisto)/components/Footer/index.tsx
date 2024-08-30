@@ -1,14 +1,16 @@
 import Image from "next/image";
-import LogoLM from '/public/assets/lb.org-branca.svg'
+import LogoLM from "/public/assets/lb.org-branca.svg";
+import Link from "next/link";
 
-export default function Footer() {
+export function Footer() {
   return (
-    <footer className="bg-brandAccent/20">
-      <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-3">
+    <footer className="shadow-brandSecondary/20 shadow-t-md">
+      <div className="mx-auto px-4 pt-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
+        <div className="row-gap-6 mb-8 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           <div className="sm:col-span-2">
-            <a
-              href="/"
+            <Link
+              passHref
+              href="#"
               aria-label="Go home"
               title="Company"
               className="inline-flex items-center"
@@ -21,11 +23,11 @@ export default function Footer() {
                 src="/assets/jamilelogo2.svg"
                 className="sm:mx-auto"
               />
-            </a>
+            </Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-brandSecondary">
-                Advocacia e Consultoria Jurídica em Cidadania e Nacionalidade
-                Portuguesa
+                Advocacia e Consultoria Jurídica em Visto,
+                Cidadania/Nacionalidade Portuguesa
               </p>
             </div>
           </div>
@@ -37,7 +39,7 @@ export default function Footer() {
               <p className="mr-1 text-brandSecondary">WhatsApp:</p>
               <p
                 aria-label="WhatsApp"
-                className="transition-colors duration-300 text-brandSecondary hover:text-brandSecondary/70"
+                className="text-brandSecondary transition-colors duration-300 hover:text-brandSecondary/70"
               >
                 +351 933 965 256
               </p>
@@ -46,7 +48,7 @@ export default function Footer() {
               <p className="mr-1 text-brandSecondary">Email:</p>
               <p
                 aria-label="Email"
-                className="break-all transition-colors duration-300 text-brandSecondary hover:text-brandSecondary/70"
+                className="break-all text-brandSecondary transition-colors duration-300 hover:text-brandSecondary/70"
               >
                 atendimento@advogadajamilegomes.com
               </p>
@@ -55,7 +57,7 @@ export default function Footer() {
               <p className="mr-1 text-brandSecondary">OA Portugal:</p>
               <p
                 aria-label="Email"
-                className="transition-colors duration-300 text-brandSecondary hover:text-brandSecondary/70"
+                className="text-brandSecondary transition-colors duration-300 hover:text-brandSecondary/70"
               >
                 67974L
               </p>
@@ -64,20 +66,25 @@ export default function Footer() {
               <p className="mr-1 text-brandSecondary">OAB/ES:</p>
               <p
                 aria-label="Email"
-                className="transition-colors duration-300 text-brandSecondary hover:text-brandSecondary/70"
+                className="text-brandSecondary transition-colors duration-300 hover:text-brandSecondary/70"
               >
                 35.947/ES
               </p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t border-brandSecondary lg:flex-row">
-          <p className="text-sm text-brandSecondary/60">
+        <div className="mt-2">
+          <span className="inline-block h-1 w-60 rounded-full bg-brandAccent"></span>
+          <span className="ml-1 inline-block h-1 w-3 rounded-full bg-brandAccent"></span>
+          <span className="ml-1 inline-block h-1 w-1 rounded-full bg-brandAccent"></span>
+        </div>
+        <div className="flex flex-col-reverse justify-between pt-5 pb-10 lg:flex-row">
+          <p className="text-sm text-brandAccent">
             Jamile Gomes Advocacia © 2023 - Todos os Direitos Reservados
           </p>
-          <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-            <li className="text-brandSecondary/60 text-xs">Desenvolvido por</li>
-            <li className="text-brandSecondary/60">
+          <ul className="mb-3 flex flex-col space-y-2 sm:flex-row sm:space-y-0 sm:space-x-5 lg:mb-0">
+            <li className="text-xs text-brandAccent">Desenvolvido por</li>
+            <li>
               <Image
                 alt="Logo"
                 width={100}
@@ -90,8 +97,8 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="bg-brandSecondary/75">
-        <div className="py-10 max-w-5xl mx-auto p-4">
+      <div className="bg-brandSecondary">
+        <div className="mx-auto max-w-5xl p-4 py-10">
           <p className="text-center text-sm text-white">
             Este site não faz parte do Google nem do Facebook ou do Facebook
             Inc. Além disso, não oferecemos nenhum tipo de serviço oficial do

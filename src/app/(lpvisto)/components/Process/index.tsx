@@ -33,7 +33,7 @@ export function Process() {
 
   return (
     <section>
-      <div className="mx-auto max-w-6xl px-8 py-10">
+      <div className="mx-auto max-w-6xl space-y-5 px-8 py-10">
         <h1 className="text-3xl font-medium uppercase tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
           como funciona o processo {""}
           <span className="bg-brandPrimary bg-clip-text font-black text-transparent">

@@ -98,8 +98,8 @@ export default function HowWeHelp() {
               </span>
             </h1>
             <p className="font-medium text-brandPrimary">
-              Oferecemos suporte completo em processos de autorização de
-              residência e vistos
+              Ofereço suporte completo em processos de autorização de residência
+              e vistos
             </p>
           </div>
         </div>

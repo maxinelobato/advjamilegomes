@@ -1,8 +1,7 @@
-import AboutJamile from "../components/AboutJamile";
-import Advantages from "../components/Advantages";
+import { AboutJamile } from "../components/AboutJamile";
 import { ButtonFloatWttp } from "../components/Buttons";
 import Faq from "../components/Faq";
-import Footer from "../components/Footer";
+import { Footer } from "../components/Footer";
 import { Hero } from "../components/Hero";
 import { HowItWorks } from "../components/HowItWorks";
 import HowWeHelp from "../components/HowWeHelp";
@@ -16,9 +15,9 @@ export default function Home() {
       <HowWeHelp />
       <SocialProve />
       <Process />
-      <HowItWorks />
       <AboutJamile />
       <Faq />
+      <HowItWorks />
       <ButtonFloatWttp />
       <Footer />
     </>

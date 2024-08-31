@@ -8,7 +8,7 @@ import {
 export function HowItWorks() {
   return (
     <>
-      <div className="mx-auto px-4 py-16 sm:max-w-6xl md:max-w-6xl md:px-24 lg:max-w-6xl lg:px-8 lg:py-10">
+      <div className="mx-auto mb-10 px-4 py-4 sm:max-w-6xl md:max-w-6xl md:px-24 lg:max-w-6xl lg:px-8">
         <div className="rounded-lg bg-gradient-to-l from-transparent to-brandAccent/30 p-8 shadow-brandAccent/20 backdrop-blur-sm shadow-r-md sm:p-16">
           <div className="flex flex-col lg:flex-row">
             <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">

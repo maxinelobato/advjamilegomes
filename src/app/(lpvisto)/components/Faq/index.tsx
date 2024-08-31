@@ -25,7 +25,7 @@ export default function Faq() {
 
   return (
     <>
-      <div className="mx-auto px-4 pb-8 sm:max-w-6xl md:max-w-6xl md:px-24 lg:max-w-6xl lg:px-8 lg:pb-16">
+      <div className="mx-auto px-4 pb-8 sm:max-w-6xl md:max-w-6xl md:px-24 lg:max-w-6xl lg:px-8 lg:pb-8">
         <div className="max-w-xl sm:mx-auto lg:max-w-4xl">
           <div className="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-4xl">
             <div className="mx-auto text-center">

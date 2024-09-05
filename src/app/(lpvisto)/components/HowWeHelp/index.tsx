@@ -4,11 +4,13 @@ import {
   BuildingOffice,
   Certificate,
   CreditCard,
+  Crosshair,
   DesktopTower,
   Laptop,
   PiggyBank,
   ReadCvLogo,
   Student,
+  Swap,
   UsersFour,
 } from "@phosphor-icons/react/dist/ssr";
 import {
@@ -21,9 +23,9 @@ import Link from "next/link";
 export default function HowWeHelp() {
   const features = [
     {
-      icon: <Laptop weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
-      title: "Visto para Nômade Digital",
-      desc: "Estrangeiro que trabalha remotamente e com rendimentos de no mínimo 4 salários mínimos portugueses mensais",
+      icon: <ReadCvLogo weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "V.D1 de Trabalho",
+      desc: "Estrangeiros com promessa formal de trabalho ou um contrato de trabalho de pelo menos 12 meses em qualquer empresa sediada em Portugal",
     },
     {
       icon: <ReadCvLogo weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
@@ -31,29 +33,29 @@ export default function HowWeHelp() {
       desc: "Qualquer estrangeiro que tenha interesse de ir a Portugal para procurar trabalho",
     },
     {
-      icon: <CreditCard weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
-      title: "Golden Visa",
-      desc: "A diferença deste visto para os demais é o tempo de permanência, que nesse caso são 7 dias ao ano",
-    },
-    {
-      icon: <Student weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
-      title: "Visto D5 Estudo Europeu",
-      desc: "Para todos os cidadãos estrangeiros que queiram morar e estudar em Portugal",
-    },
-    {
-      icon: <PiggyBank weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
-      title: "Visto D7 Aposentados e Titulares de Rendimentos",
-      desc: "Para aposentados e pessoas com rendimentos no Brasil comprovados por um período de no mínimo 1 ano em Portugal",
-    },
-    {
-      icon: <Certificate weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
-      title: "Visto D3 Trabalho Altamente Qualificado",
-      desc: "É destinado a profissionais estrangeiros que especifique a profissão para ser concedido",
+      icon: <UsersFour weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "Visto Acompanhamento Familiar",
+      desc: "Para familiares de requerente de visto de residência - esse visto é pedido em simultâneo com um dos outros visto de residência disponíveis, com exceção do visto de procura de trabalho",
     },
     {
       icon: <UsersFour weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
-      title: "Visto D6 Reagrupamento Familiar",
-      desc: "Para familiares de um portador de visto, ou seja, que tenha autorização de residência ou cidadão portugês também morem legalmente",
+      title: "V.D6 Reagrupamento",
+      desc: "Para familiar de residente legal em Portugal",
+    },
+    {
+      icon: <Laptop weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "Visto Nômade/Remoto",
+      desc: "Estrangeiro que trabalha remotamente e com rendimentos de no mínimo 4 salários mínimos portugueses mensais",
+    },
+    {
+      icon: <PiggyBank weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "V.D7 Rendas Próprias",
+      desc: "Para aposentados ou pessoas que percebem rendimentos mensais correspondente a pelo menos 1 salário mínimo português",
+    },
+    {
+      icon: <Briefcase weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "V.D2 Empreendedor/Startup Visa",
+      desc: "Para investidor ou empreendedor em Portugal que tenha um empreendimento economicamente relevante para Portugal",
     },
     {
       icon: (
@@ -63,26 +65,44 @@ export default function HowWeHelp() {
       desc: "Para profissionais altamente qualificados de tecnologia da informação, engenheiro de software, programação, etc. Cadastrados também no Programa Tech Visa",
     },
     {
-      icon: (
-        <BuildingOffice weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />
-      ),
-      title: "Startup Visa",
-      desc: "Além de incentivar o empreendedorismo em Portugal, para quem já possui empresa há pelo menos 4 anos no Brasil e quer internacionalizar suas atividades",
-    },
-    {
       icon: <Student weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
-      title: "Visto D4 Estudo",
+      title: "V.D4 Estudo",
       desc: "Para entrangeiros com matrícula ou carta de aceitação de instituição de ensino em Portugal que querem ampliar horizontes e melhorar seu currículo. ",
     },
     {
-      icon: <Briefcase weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
-      title: "Visto D2 Empreendedor",
-      desc: "Para estrangeiros que pretendem realizar uma atividade de investimento como empreendedor em Portugal",
+      icon: <Certificate weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "V.D3 Altamente Qualificado",
+      desc: "Destina-se aos estrangeiros que irão exercer atividade altamente qualificada como cargos diretivos de grandes corporações ou atividades culturais por um período superior a 9 meses com remuneração mensal de no mínimo 1.5x ao salário mínimo bruto português",
     },
     {
-      icon: <ReadCvLogo weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
-      title: "Visto D1 de Trabalho",
-      desc: "Estrangeiros com um contrato de trabalho de pelo menos 12 meses em qualquer empresa sediada em Portugal",
+      icon: <Crosshair weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "V.D4 Investigação",
+      desc: "Para quem vai realizar atividade de investigação ou estudo em Portugal",
+    },
+    {
+      icon: <Swap weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "V.D4 Intercâmbio",
+      desc: "Para quem vai realizar atividade de investigação ou estudo em Portugal",
+    },
+    {
+      icon: <Student weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "V.D4 Estágio",
+      desc: "Para estudante aceito num estágio em instituição portuguesa",
+    },
+    {
+      icon: <Student weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "V.D4 Voluntariado",
+      desc: "Para pessoa que for convidada por entidade portuguesa para atividade voluntária",
+    },
+    {
+      icon: <Student weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "V.D3 Docente ou Cultural",
+      desc: "Para pessoa que tenha contrato de trabalho com empresa portuguesa ou promessa de contrato com valor de 1.5x ao salário mínimo bruto português mensal",
+    },
+    {
+      icon: <CreditCard weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
+      title: "Golden Visa",
+      desc: "A diferença deste visto para os demais é o tempo de permanência, que nesse caso são 7 dias ao ano",
     },
   ];
 

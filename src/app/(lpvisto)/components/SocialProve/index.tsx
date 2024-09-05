@@ -127,9 +127,9 @@ export function SocialProve() {
           <div className="mx-auto text-center">
             <div className="mx-auto max-w-4xl space-y-5 px-4 py-8 text-center">
               <h1 className="text-3xl font-medium uppercase tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
-                Histórias de Clientes que{" "}
+                Histórias de{" "}
                 <span className="bg-brandPrimary bg-clip-text font-black text-transparent">
-                  Conquistaram Portugal
+                  Clientes
                 </span>
               </h1>
               <p className="font-medium text-brandPrimary">

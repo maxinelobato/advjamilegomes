@@ -15,19 +15,19 @@ export function Process() {
   const features = [
     {
       icon: <MagnifyingGlass size={32} className="h-6 w-6" weight="fill" />,
-      title: "Consulta Inicial e Análise de Perfil",
+      title: "reunião virtual inicial",
     },
     {
       icon: <Files size={32} className="h-6 w-6" weight="fill" />,
-      title: "Preparação da Documentação",
+      title: "preparação da documentação",
     },
     {
       icon: <TrendUp size={32} className="h-6 w-6" weight="fill" />,
-      title: "Submissão e Acompanhamento do Processo",
+      title: "envio e acompanhamento do processo",
     },
     {
       icon: <PresentationChart size={32} className="h-6 w-6" weight="fill" />,
-      title: "Orientação para Reassentamento em Portugal",
+      title: "orientação para imigração",
     },
   ];
 
@@ -61,7 +61,7 @@ export function Process() {
                   <span className="inline-block rounded-lg bg-brandPrimary p-3 text-white">
                     {item.icon}
                   </span>
-                  <div className="text-center md:mx-4">
+                  <div className="text-center md:mx-3">
                     <h1 className="text-xs font-bold capitalize text-brandSecondary sm:text-sm">
                       {item.title}
                     </h1>

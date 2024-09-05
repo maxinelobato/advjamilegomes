@@ -10,16 +10,24 @@ import {
 export default function Faq() {
   const faqList = [
     {
-      title: "Qual é o prazo para obter o visto?",
-      subtitle: "...",
+      title: "Qual o prazo para o visto ser emitido?",
+      subtitle:
+        "O consulado demora em média 60 dias para analisar o processo, podendo ser concluído em mais ou menos tempo, recomendamos enviar o pedido com pelo menos 90 dias de antecedência.",
     },
     {
-      title: "Quais são os requisitos para o Golden Visa?",
-      subtitle: "...",
+      title: "Quais os documentos necessários?",
+      subtitle:
+        "Os documentos dependem do tipo de visto a ser solicitado, por esse motivo, está incluso no serviço de assessoria a orientação em relação aos documentos necessários, não se preocupe, pois vamos te orientar e tirar todas as suas dúvidas para obtenção dos mesmos.",
     },
     {
-      title: "Como funciona o processo de nacionalidade portuguesa?",
-      subtitle: "...",
+      title: "Como é a assessoria para o pedido de visto?",
+      subtitle:
+        "Na assessoria, eu vou te orientar em relação aos documentos necessários, vou conferir todos para garantir que estão conforme as exigências do Consulado. Enquanto você obtém os documentos, eu vou preencher todos os formulários para o pedido de visto e ao final, quando tudo estiver em mãos, faremos uma reunião para organizar o envelope com os documentos para envio ao Consulado. Após o envio do pedido, vou acompanhar o processo até o final e orientarei para esclarecimentos ao Consulado caso seja necessário.",
+    },
+    {
+      title: "Posso usar carta convite?",
+      subtitle:
+        "Sim, a carta convite pode ser utilizada para substituir o comprovante de hospedagem e em alguns casos, poderá ser utilizada para comprovar os meios de subsistência exigidos.",
     },
   ];
 

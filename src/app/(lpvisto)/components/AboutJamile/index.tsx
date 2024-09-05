@@ -10,7 +10,7 @@ export function AboutJamile() {
           <h1 className="mt-2 text-3xl font-medium uppercase tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
             Especialista em {""}
             <span className="bg-brandSecondary bg-clip-text font-black text-transparent">
-              Vistos, Cidadania e Nacionalidade
+              Vistos, Cidadania e Nacionalidade Portuguesa
             </span>
           </h1>
 
@@ -34,11 +34,11 @@ export function AboutJamile() {
                     OA/PT: 67974L | OAB/ES: 35.947
                   </p>
                 </div>
-
                 <p className="mt-4 text-lg leading-relaxed text-brandSecondary md:text-xl">
-                  {" "}
-                  Formada na Faculdade Pitágoras em 2020 Inscrição na OAB do
-                  Brasil e na OA de Portugal
+                  Formada na Faculdade Pitágoras em 2020
+                </p>
+                <p className="text-lg leading-relaxed text-brandSecondary md:text-xl">
+                  Inscrição na OAB do Brasil e na OA de Portugal
                 </p>
               </div>
             </div>

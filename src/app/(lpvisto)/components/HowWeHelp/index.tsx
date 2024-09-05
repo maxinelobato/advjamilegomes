@@ -88,7 +88,7 @@ export default function HowWeHelp() {
 
   return (
     <>
-      <div className="mx-auto max-w-6xl px-4 py-8 md:px-8">
+      <section className="mx-auto max-w-6xl px-4 py-8 md:px-8">
         <div className="mx-auto text-center">
           <div className="mx-auto max-w-4xl space-y-5 px-4 py-8 text-center">
             <h1 className="text-3xl font-medium uppercase tracking-wide text-brandSecondary sm:text-4xl sm:leading-none">
@@ -108,7 +108,7 @@ export default function HowWeHelp() {
             {features.map((item, idx) => (
               <li
                 key={idx}
-                className="group space-y-3 rounded-lg p-4 shadow-brandSecondary/20 shadow-l-lg hover:scale-100 hover:border-l-4 hover:border-brandAccent hover:bg-gradient-to-l hover:from-brandAccent/40 hover:to-transparent hover:shadow-brandAccent hover:transition-shadow"
+                className="group space-y-3 rounded-lg p-4 shadow-brandSecondary/20 shadow-l-lg hover:scale-100 hover:border-l-4 hover:border-brandAccent hover:bg-gradient-to-r hover:from-brandAccent/40 hover:to-transparent hover:shadow-brandAccent hover:transition-shadow"
               >
                 <Link
                   passHref
@@ -140,7 +140,7 @@ export default function HowWeHelp() {
             ))}
           </ul>
         </div>
-      </div>
+      </section>
     </>
   );
 }

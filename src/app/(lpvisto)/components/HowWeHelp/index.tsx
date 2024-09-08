@@ -67,7 +67,7 @@ export default function HowWeHelp() {
     {
       icon: <Student weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "V.D4 Estudo",
-      desc: "Para entrangeiros com matrícula ou carta de aceitação de instituição de ensino em Portugal que querem ampliar horizontes e melhorar seu currículo. ",
+      desc: "Para estrangeiros com matrícula ou carta de aceitação de instituição de ensino em Portugal que querem ampliar horizontes e melhorar seu currículo. ",
     },
     {
       icon: <Certificate weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
@@ -98,11 +98,6 @@ export default function HowWeHelp() {
       icon: <Student weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
       title: "V.D3 Docente ou Cultural",
       desc: "Para pessoa que tenha contrato de trabalho com empresa portuguesa ou promessa de contrato com valor de 1.5x ao salário mínimo bruto português mensal",
-    },
-    {
-      icon: <CreditCard weight="fill" className="h-20 w-20 sm:h-24 sm:w-24" />,
-      title: "Golden Visa",
-      desc: "A diferença deste visto para os demais é o tempo de permanência, que nesse caso são 7 dias ao ano",
     },
   ];
 

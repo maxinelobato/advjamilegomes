@@ -50,7 +50,7 @@ export function Footer() {
                 aria-label="Email"
                 className="break-all text-brandSecondary transition-colors duration-300 hover:text-brandSecondary/70"
               >
-                atendimento@advogadajamilegomes.com
+                documentos@advogadajamilegomes.com
               </p>
             </div>
             <div className="flex justify-center sm:justify-start">

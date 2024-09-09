@@ -141,7 +141,7 @@ export function SocialProve() {
           <div className="mt-8 max-w-6xl [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
             {features.map((item, idx) => (
               <div className="mb-8 sm:break-inside-avoid" key={idx}>
-                <blockquote className="rounded-lg bg-brandBase1-100/40 p-6 shadow-brandSecondary/20 shadow-l-lg sm:p-8">
+                <blockquote className="rounded-lg bg-brandBase3-300/5 p-6 shadow-brandSecondary/20 shadow-l-lg sm:p-8">
                   <div className="flex items-center gap-4">
                     <Image
                       width={45}

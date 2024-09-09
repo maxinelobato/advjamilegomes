@@ -55,7 +55,7 @@ export function Process() {
             {features.map((item, idx) => (
               <div
                 key={idx}
-                className="rounded-lg border-l-4 border-l-brandSecondary p-4 shadow-brandSecondary/20 shadow-*-md sm:p-6"
+                className="rounded-lg border-l-4 border-l-brandSecondary bg-brandBase3-300/10 p-4 shadow-brandSecondary/20 shadow-r-lg sm:p-6"
               >
                 <div className="text-center md:-mx-4 md:flex md:items-center">
                   <span className="inline-block rounded-lg bg-brandPrimary p-3 text-white">

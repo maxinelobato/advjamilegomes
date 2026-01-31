@@ -7,7 +7,7 @@ const GTM_ID = "GTM-NPND4R85";
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
-  preload: true,
+  variable: "--font-montserrat",
 });
 
 export const metadata = {
